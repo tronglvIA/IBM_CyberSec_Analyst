@@ -1,0 +1,426 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:03.740
+Welcome to scripting concepts
+brought to you by IBM.
+
+2
+00:00:05.480 --> 00:00:09.430
+In this video, Raul will be taking us
+through the different concepts related to
+
+3
+00:00:09.430 --> 00:00:11.130
+scripting languages.
+
+4
+00:00:11.130 --> 00:00:12.775
+Let's get started.
+
+5
+00:00:12.775 --> 00:00:14.431
+>> A script is basically a program.
+
+6
+00:00:16.983 --> 00:00:22.272
+There is a difference,
+well, a basic difference in
+
+7
+00:00:22.272 --> 00:00:27.332
+which a script is not
+translated to machine code.
+
+8
+00:00:27.332 --> 00:00:35.105
+It depends on an interpreter program
+that will run a script line by line.
+
+9
+00:00:35.105 --> 00:00:39.760
+But other than that,
+it has the same functions, procedure.
+
+10
+00:00:39.760 --> 00:00:42.527
+It can have external calls,
+
+11
+00:00:42.527 --> 00:00:47.613
+an external call is
+a reference to another program.
+
+12
+00:00:47.613 --> 00:00:55.189
+In this case another script that will
+be run from the original script and
+
+13
+00:00:55.189 --> 00:01:01.125
+will add its output to the script
+that we're running and
+
+14
+00:01:01.125 --> 00:01:06.210
+the standard variables and constants.
+
+15
+00:01:06.210 --> 00:01:07.693
+Let's see some examples.
+
+16
+00:01:07.693 --> 00:01:15.857
+Most scripts depend on variables
+to be able to perform its output.
+
+17
+00:01:17.664 --> 00:01:22.788
+A rule of thumb is most
+scripts just as almost every
+
+18
+00:01:22.788 --> 00:01:27.312
+program languages, I'll say that again.
+
+19
+00:01:27.312 --> 00:01:33.175
+A rule of thumb is that
+most script interpreters
+
+20
+00:01:33.175 --> 00:01:37.279
+just the same as most programming
+
+21
+00:01:37.279 --> 00:01:42.300
+languages need its variables defined.
+
+22
+00:01:42.300 --> 00:01:47.500
+Now, that doesn't happen in
+script languages like bash.
+
+23
+00:01:49.430 --> 00:01:57.782
+In Windows, yes, you need to declare
+the type of the variable you're using.
+
+24
+00:01:59.243 --> 00:02:02.251
+What does it mean,
+what does it mean declaring?
+
+25
+00:02:02.251 --> 00:02:07.635
+It means that if you're going to
+store text into a variable you
+
+26
+00:02:07.635 --> 00:02:13.860
+need to tell the scripting interpreter
+that you're using it for text.
+
+27
+00:02:16.531 --> 00:02:22.225
+Otherwise if you are using variable for
+numbers and
+
+28
+00:02:22.225 --> 00:02:26.993
+that's text, you won't be able to use any
+
+29
+00:02:26.993 --> 00:02:32.000
+mathematic functions on that variable.
+
+30
+00:02:32.000 --> 00:02:34.757
+It will give you an error.
+
+31
+00:02:34.757 --> 00:02:38.834
+Now, for space efficiency,
+
+32
+00:02:40.234 --> 00:02:47.885
+Most variable types have
+a ready set memory size.
+
+33
+00:02:51.481 --> 00:02:58.843
+That happens for most programming
+languages and most interpreters.
+
+34
+00:03:00.249 --> 00:03:05.867
+Bash uses a pointered memory type so
+
+35
+00:03:05.867 --> 00:03:12.241
+it doesn't use size for its variables.
+
+36
+00:03:12.241 --> 00:03:13.553
+But that's an exception.
+
+37
+00:03:16.362 --> 00:03:20.112
+Now, these variables
+what can I do to them?
+
+38
+00:03:20.112 --> 00:03:24.162
+I can assign a value?
+
+39
+00:03:24.162 --> 00:03:28.990
+I can reference, manipulate, replace, or
+
+40
+00:03:28.990 --> 00:03:33.951
+at the end of the program
+delete the variable.
+
+41
+00:03:33.951 --> 00:03:41.680
+Now, there is a special kind of variables
+called arguments or parameters.
+
+42
+00:03:41.680 --> 00:03:48.231
+What happens with this is exactly
+why the scripts are so interesting.
+
+43
+00:03:48.231 --> 00:03:51.233
+When we're calling a script,
+
+44
+00:03:51.233 --> 00:03:56.552
+we can tell name of the script,
+let's call it backup.
+
+45
+00:03:56.552 --> 00:04:02.572
+And then in the command line we
+can tell it backup its database.
+
+46
+00:04:02.572 --> 00:04:07.819
+Now inside of the script,
+we are going to program that variable
+
+47
+00:04:07.819 --> 00:04:12.383
+that comes after the name of
+the script as a parameter.
+
+48
+00:04:12.383 --> 00:04:16.953
+Basically a parameter
+is something we have at
+
+49
+00:04:16.953 --> 00:04:22.847
+the beginning of the script
+execution as part of the script
+
+50
+00:04:22.847 --> 00:04:28.160
+calling that we will be
+using to perform the script.
+
+51
+00:04:28.160 --> 00:04:34.619
+It will be either the target or
+it will be one of the commands or
+
+52
+00:04:34.619 --> 00:04:40.462
+operations that we are going
+to perform on the target.
+
+53
+00:04:40.462 --> 00:04:45.377
+Now the if statement is
+the lesser definition
+
+54
+00:04:45.377 --> 00:04:49.006
+of a decision inside of a script.
+
+55
+00:04:51.248 --> 00:04:57.017
+It will give us an instructor
+to decide if we're going to
+
+56
+00:04:57.017 --> 00:05:02.558
+perform one operation or
+another inside of a script.
+
+57
+00:05:05.183 --> 00:05:11.809
+The normal definition under
+if statement will be if and
+
+58
+00:05:11.809 --> 00:05:16.995
+then we're going to establish a condition
+
+59
+00:05:16.995 --> 00:05:23.053
+that will be one state or
+another, true or false.
+
+60
+00:05:23.053 --> 00:05:28.024
+Then what is going to be performed if
+
+61
+00:05:28.024 --> 00:05:32.002
+that condition comes true or
+
+62
+00:05:32.002 --> 00:05:37.803
+else that is the code
+that will be executed
+
+63
+00:05:37.803 --> 00:05:42.443
+if the condition comes as false,
+
+64
+00:05:42.443 --> 00:05:46.939
+and the end of the if statement.
+
+65
+00:05:46.939 --> 00:05:51.994
+When performing repetitive tasks,
+we are going to
+
+66
+00:05:51.994 --> 00:05:58.584
+face situations when a task has to
+be repeated by a number of times.
+
+67
+00:05:58.584 --> 00:06:03.510
+Sometimes we will know how many
+times we have to repeat the test.
+
+68
+00:06:03.510 --> 00:06:08.592
+Sometimes it will come as a [INAUDIBLE] or
+
+69
+00:06:08.592 --> 00:06:13.674
+sometimes we will have a list of items we
+
+70
+00:06:13.674 --> 00:06:19.064
+don't know when we are writing the script
+
+71
+00:06:19.064 --> 00:06:24.464
+how many times is it going to be repeated.
+
+72
+00:06:24.464 --> 00:06:30.964
+But there is a variable or a list of
+variables that will determine that.
+
+73
+00:06:30.964 --> 00:06:34.582
+So we will create a loop.
+
+74
+00:06:34.582 --> 00:06:39.008
+The three loops defined in almost
+
+75
+00:06:39.008 --> 00:06:44.067
+every programming language are, for
+
+76
+00:06:44.067 --> 00:06:51.825
+loop is going to be evaluated
+at the beginning of the loop.
+
+77
+00:06:51.825 --> 00:06:55.511
+It will perform the loop for
+
+78
+00:06:55.511 --> 00:07:00.959
+an already determined number of times or
+
+79
+00:07:00.959 --> 00:07:04.653
+determined by a variable.
+
+80
+00:07:04.653 --> 00:07:10.811
+The definition will be,
+
+81
+00:07:10.811 --> 00:07:16.382
+for counter to limit to
+
+82
+00:07:16.382 --> 00:07:21.660
+the code that is going
+
+83
+00:07:21.660 --> 00:07:28.413
+to be a repeated, and end.
+
+84
+00:07:28.413 --> 00:07:30.888
+The next one is the while.
+
+85
+00:07:30.888 --> 00:07:38.723
+A while loop is set while
+a condition is true.
+
+86
+00:07:41.967 --> 00:07:46.832
+So it could be set at sensor or 10,
+
+87
+00:07:46.832 --> 00:07:51.699
+while sensor is called do a series of
+
+88
+00:07:51.699 --> 00:07:56.417
+tasks to heat up the sensor, end.
+
+89
+00:07:56.417 --> 00:08:04.390
+So this loop will be repeated
+while the condition is true.
+
+90
+00:08:05.960 --> 00:08:11.586
+And the until loop which it has been
+
+91
+00:08:11.586 --> 00:08:17.611
+therefore created to know.
+
+92
+00:08:17.611 --> 00:08:24.263
+The until loop is evaluated
+at the end of the loop trying
+
+93
+00:08:24.263 --> 00:08:31.211
+to determine if a condition is
+true at the end of the loop.
+
+94
+00:08:31.211 --> 00:08:37.560
+So there's nothing an until loop
+can do that a while loop cannot do.
