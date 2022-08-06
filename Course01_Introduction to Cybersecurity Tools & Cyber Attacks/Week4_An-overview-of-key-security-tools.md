@@ -119,7 +119,7 @@
 
 ## Securityintelligence.com
 
-Explore [https://securityintelligence.com/](https://securityintelligence.com/) to review all of the up to date information contributed by Cybersecurity experts globally.
+Explore [https://securityintelligence.com/](https://securityintelligence.com/) to review all of the up to date information contributed by Cybersecurity experts globally. 
 
 At *SecurityIntelligence*, they empower security professionals across the globe to protect their organizations by providing them with the relatable analysis and actionable insights they need to thrive in the face of cyber uncertainty. This site delivers content from hundreds of the brightest minds in the cybersecurity industry.
 
