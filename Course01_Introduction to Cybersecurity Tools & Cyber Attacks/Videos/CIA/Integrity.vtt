@@ -1,0 +1,549 @@
+WEBVTT
+
+1
+00:00:04.340 --> 00:00:08.730
+In this video, you will
+learn to Describe what is
+
+2
+00:00:08.730 --> 00:00:12.675
+meant by Integrity and
+the context of the CIA Triad.
+
+3
+00:00:12.675 --> 00:00:14.850
+The other concept
+that we are going
+
+4
+00:00:14.850 --> 00:00:17.085
+to explore today its Integrity.
+
+5
+00:00:17.085 --> 00:00:20.310
+Integrity is actually
+something that is
+
+6
+00:00:20.310 --> 00:00:22.440
+similar to confidentiality but
+
+7
+00:00:22.440 --> 00:00:23.865
+there are some differences.
+
+8
+00:00:23.865 --> 00:00:26.175
+For example, integrity is
+
+9
+00:00:26.175 --> 00:00:27.930
+just the principle that
+
+10
+00:00:27.930 --> 00:00:29.849
+all the data, all
+the information,
+
+11
+00:00:29.849 --> 00:00:32.340
+all the systems that we are
+
+12
+00:00:32.340 --> 00:00:35.430
+going to use are not modified,
+
+13
+00:00:35.430 --> 00:00:39.690
+are not changed by
+any system, by any user,
+
+14
+00:00:39.690 --> 00:00:42.840
+by any person in
+
+15
+00:00:42.840 --> 00:00:44.910
+the transit or in the meantime
+
+16
+00:00:44.910 --> 00:00:47.180
+that we are going
+to use that system.
+
+17
+00:00:47.180 --> 00:00:49.520
+So, for example, if
+we are going to send
+
+18
+00:00:49.520 --> 00:00:53.060
+an email from our email client to
+
+19
+00:00:53.060 --> 00:00:56.420
+our company's headquarters
+saying that we are
+
+20
+00:00:56.420 --> 00:01:01.754
+going to use system
+
+21
+00:01:01.754 --> 00:01:06.920
+to access remotely
+the computer of
+
+22
+00:01:06.920 --> 00:01:08.780
+the client and we send on
+
+23
+00:01:08.780 --> 00:01:13.760
+that email the VPN Software
+that we are going to use.
+
+24
+00:01:13.760 --> 00:01:17.815
+One of the key concepts that
+integrity deals with is
+
+25
+00:01:17.815 --> 00:01:20.740
+the importance that
+the mail that we are going
+
+26
+00:01:20.740 --> 00:01:23.530
+to send is not going
+to be tampered,
+
+27
+00:01:23.530 --> 00:01:26.305
+is not going to be
+modified in the transit.
+
+28
+00:01:26.305 --> 00:01:28.850
+So, basically integrity deals
+
+29
+00:01:28.850 --> 00:01:31.895
+with the process that each of
+
+30
+00:01:31.895 --> 00:01:33.080
+the pieces of the information
+
+31
+00:01:33.080 --> 00:01:34.530
+that we are going
+to send that we are
+
+32
+00:01:34.530 --> 00:01:38.225
+going to receive are
+the original pieces.
+
+33
+00:01:38.225 --> 00:01:40.460
+How can we implement,
+
+34
+00:01:40.460 --> 00:01:43.340
+how can we use integrity in
+
+35
+00:01:43.340 --> 00:01:46.670
+our company in
+our Cybersecurity life?
+
+36
+00:01:46.670 --> 00:01:49.205
+We normally use hashes.
+
+37
+00:01:49.205 --> 00:01:54.830
+That concept, the hash concept
+is a something important,
+
+38
+00:01:54.830 --> 00:01:56.300
+it's something that we
+are going to explore
+
+39
+00:01:56.300 --> 00:01:59.360
+in some videos in the future,
+
+40
+00:01:59.360 --> 00:02:01.175
+but in the meantime,
+
+41
+00:02:01.175 --> 00:02:03.305
+the important part
+of the hashes is
+
+42
+00:02:03.305 --> 00:02:05.780
+explained that the
+hash is an algorithm.
+
+43
+00:02:05.780 --> 00:02:09.020
+Is a mathematical algorithm
+that is going to
+
+44
+00:02:09.020 --> 00:02:13.340
+create like a signature of
+the file of the e-mail,
+
+45
+00:02:13.340 --> 00:02:15.425
+of the data that we
+are going to use.
+
+46
+00:02:15.425 --> 00:02:17.440
+For example, and I'm just going
+
+47
+00:02:17.440 --> 00:02:20.270
+to explore a couple
+of things here.
+
+48
+00:02:20.270 --> 00:02:22.580
+So, for example, if would go to,
+
+49
+00:02:22.580 --> 00:02:25.610
+internet and let us go
+to Google and we can go
+
+50
+00:02:25.610 --> 00:02:29.590
+to, Hash Generator Online.
+
+51
+00:02:29.590 --> 00:02:32.115
+Here, we could for example,
+
+52
+00:02:32.115 --> 00:02:35.055
+go to the second link.
+
+53
+00:02:35.055 --> 00:02:38.385
+Here is the URL
+Password Generator.NET,
+
+54
+00:02:38.385 --> 00:02:39.870
+and here we could have gone
+
+55
+00:02:39.870 --> 00:02:42.120
+to enter a password,
+enter a text.
+
+56
+00:02:42.120 --> 00:02:47.260
+Actually, we could add
+something like secure password.
+
+57
+00:02:47.870 --> 00:02:53.910
+This secure password, if we
+generate a hash algorithm
+
+58
+00:02:53.910 --> 00:02:59.640
+using the SHA256 algorithm
+or mathematical encryption,
+
+59
+00:02:59.640 --> 00:03:02.820
+we are going to
+translate this word,
+
+60
+00:03:02.820 --> 00:03:04.430
+the Security secure password
+
+61
+00:03:04.430 --> 00:03:06.890
+word into these
+numbers and letters.
+
+62
+00:03:06.890 --> 00:03:10.400
+This information
+actually if you use
+
+63
+00:03:10.400 --> 00:03:14.030
+these secure word to login
+into your, for example,
+
+64
+00:03:14.030 --> 00:03:17.235
+into your e-mail account,
+
+65
+00:03:17.235 --> 00:03:20.870
+if you go and try to instead
+use the secure password,
+
+66
+00:03:20.870 --> 00:03:22.805
+you use these string here,
+
+67
+00:03:22.805 --> 00:03:23.990
+these letters and numbers,
+
+68
+00:03:23.990 --> 00:03:27.020
+you are going to be
+rejected by the system.
+
+69
+00:03:27.020 --> 00:03:29.300
+But, in the cybersecurity word,
+
+70
+00:03:29.300 --> 00:03:31.295
+these numbers, these keys,
+
+71
+00:03:31.295 --> 00:03:34.460
+these letters and
+numbers means that
+
+72
+00:03:34.460 --> 00:03:38.850
+if somebody is going
+to use these password,
+
+73
+00:03:38.850 --> 00:03:43.775
+the signature, the hash will
+be something like this.
+
+74
+00:03:43.775 --> 00:03:50.415
+If for example that we change
+the D for S for example,
+
+75
+00:03:50.415 --> 00:03:52.830
+the hash will totally change.
+
+76
+00:03:52.830 --> 00:03:56.490
+So, again if we
+changed the S for D,
+
+77
+00:03:56.490 --> 00:03:57.990
+the hash will be the same.
+
+78
+00:03:57.990 --> 00:04:02.210
+So, this is a clear example
+of what hash means.
+
+79
+00:04:02.210 --> 00:04:04.190
+It is a procedure where
+
+80
+00:04:04.190 --> 00:04:07.940
+the mathematical algorithm goes
+
+81
+00:04:07.940 --> 00:04:11.025
+and generate the signature for,
+
+82
+00:04:11.025 --> 00:04:14.210
+in this case for a word but
+we can generate the signature
+
+83
+00:04:14.210 --> 00:04:16.280
+for a file or
+
+84
+00:04:16.280 --> 00:04:18.635
+something like a document
+something like that.
+
+85
+00:04:18.635 --> 00:04:20.540
+Another example probably more
+
+86
+00:04:20.540 --> 00:04:22.760
+clear example is
+something like this.
+
+87
+00:04:22.760 --> 00:04:24.995
+We could go to Kali.org,
+
+88
+00:04:24.995 --> 00:04:29.580
+this is a Linux
+distribution where used by
+
+89
+00:04:29.580 --> 00:04:32.060
+normal Penetration
+Masters to test
+
+90
+00:04:32.060 --> 00:04:35.625
+security in the
+enterprise environment.
+
+91
+00:04:35.625 --> 00:04:38.285
+But if we go here and
+we go to downloads,
+
+92
+00:04:38.285 --> 00:04:40.820
+then download Kali Linux
+we are going to see
+
+93
+00:04:40.820 --> 00:04:44.125
+a lot of links to download
+these Linux distribution.
+
+94
+00:04:44.125 --> 00:04:49.010
+But one interesting part
+here is this SHA256 Sum.
+
+95
+00:04:49.010 --> 00:04:50.510
+This is the algorithm,
+
+96
+00:04:50.510 --> 00:04:54.510
+this is the hash that
+we need to validate,
+
+97
+00:04:54.510 --> 00:04:55.910
+as soon as we download
+
+98
+00:04:55.910 --> 00:04:59.120
+these Kali Linux light
+version of Kali.
+
+99
+00:04:59.120 --> 00:05:01.595
+So, for example, if we download
+
+100
+00:05:01.595 --> 00:05:05.295
+this file and we start download
+for example here in HTTP,
+
+101
+00:05:05.295 --> 00:05:06.630
+the file will be downloaded.
+
+102
+00:05:06.630 --> 00:05:09.900
+As soon as the
+download is finish,
+
+103
+00:05:09.900 --> 00:05:15.060
+we should actually go
+to something like this,
+
+104
+00:05:15.060 --> 00:05:19.070
+hash file online,
+
+105
+00:05:19.070 --> 00:05:22.830
+e we could go to maybe
+here, file calculator.
+
+106
+00:05:22.830 --> 00:05:26.470
+In this case, we are going to use
+
+107
+00:05:26.540 --> 00:05:33.170
+this site MD5 File.com
+will allow us to drop
+
+108
+00:05:33.170 --> 00:05:37.940
+files and generate algorithms
+or the share results
+
+109
+00:05:37.940 --> 00:05:43.290
+for these five
+different algorithms.
+
+110
+00:05:43.290 --> 00:05:44.700
+This means that for example,
+
+111
+00:05:44.700 --> 00:05:46.585
+as soon as these download finish,
+
+112
+00:05:46.585 --> 00:05:49.850
+if we upload the file here into
+
+113
+00:05:49.850 --> 00:05:53.240
+these online calculator
+and we receive
+
+114
+00:05:53.240 --> 00:05:57.410
+something different than
+these number in that SHA256 Sum,
+
+115
+00:05:57.410 --> 00:06:01.770
+the file probably will be
+corrupted or the file suffers
+
+116
+00:06:01.770 --> 00:06:04.020
+something in the transit
+
+117
+00:06:04.020 --> 00:06:07.305
+between the Kali servers
+and our computer.
+
+118
+00:06:07.305 --> 00:06:09.920
+So, that is a clear example
+of how we could
+
+119
+00:06:09.920 --> 00:06:13.380
+use hashes in the real world,
+
+120
+00:06:13.380 --> 00:06:15.970
+in the cybersecurity word.

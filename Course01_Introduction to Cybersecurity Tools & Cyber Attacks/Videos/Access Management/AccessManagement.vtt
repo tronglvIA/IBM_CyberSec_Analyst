@@ -1,0 +1,444 @@
+WEBVTT
+
+1
+00:00:04.250 --> 00:00:07.060
+In this video, you will learn
+
+2
+00:00:07.060 --> 00:00:09.970
+to describe various methods of
+
+3
+00:00:09.970 --> 00:00:12.610
+ensuring effective
+access management
+
+4
+00:00:12.610 --> 00:00:15.985
+to an organizations
+computing resources.
+
+5
+00:00:15.985 --> 00:00:18.865
+So we're going to go
+over some key concepts.
+
+6
+00:00:18.865 --> 00:00:21.155
+Now we're going to talk
+about authorization.
+
+7
+00:00:21.155 --> 00:00:24.490
+Authorization is the process of
+
+8
+00:00:24.490 --> 00:00:28.285
+allowing somebody to
+access a specific object.
+
+9
+00:00:28.285 --> 00:00:30.745
+There are different type
+of criteria.
+
+10
+00:00:30.745 --> 00:00:35.885
+You could restrict
+access by groups,
+
+11
+00:00:35.885 --> 00:00:38.300
+by time frame or specific dates,
+
+12
+00:00:38.300 --> 00:00:41.395
+also by physical location
+or transaction type.
+
+13
+00:00:41.395 --> 00:00:43.720
+What this means
+basically we can do,
+
+14
+00:00:43.720 --> 00:00:47.090
+it could allow in this case
+subjects or people to access
+
+15
+00:00:47.090 --> 00:00:51.075
+objects or files or directory
+based on specific groups.
+
+16
+00:00:51.075 --> 00:00:53.240
+For example, the administrator
+group will have access
+
+17
+00:00:53.240 --> 00:00:56.750
+to more data than
+for example somebody
+
+18
+00:00:56.750 --> 00:01:00.020
+on a different group
+such as maybe
+
+19
+00:01:00.020 --> 00:01:01.850
+a financial person in
+
+20
+00:01:01.850 --> 00:01:02.900
+a different group like
+
+21
+00:01:02.900 --> 00:01:04.805
+a financial group or
+something like that.
+
+22
+00:01:04.805 --> 00:01:08.075
+You can also restrict
+access by time frame
+
+23
+00:01:08.075 --> 00:01:13.255
+mean from eight to five people
+can access deleted files,
+
+24
+00:01:13.255 --> 00:01:16.505
+but any attempt to
+access those files
+
+25
+00:01:16.505 --> 00:01:20.940
+outside those time frames
+will be denied.
+
+26
+00:01:20.940 --> 00:01:25.230
+Also specific date, let's
+say Monday to Friday,
+
+27
+00:01:25.230 --> 00:01:27.375
+those will be the date that
+
+28
+00:01:27.375 --> 00:01:29.420
+the people working on set will
+
+29
+00:01:29.420 --> 00:01:33.425
+be allowed to access those files.
+
+30
+00:01:33.425 --> 00:01:35.900
+You can also restrict
+the access to
+
+31
+00:01:35.900 --> 00:01:38.000
+a specific objects or
+
+32
+00:01:38.000 --> 00:01:40.490
+files of actions again
+by physical location.
+
+33
+00:01:40.490 --> 00:01:43.220
+So for example, you want
+people only located in
+
+34
+00:01:43.220 --> 00:01:46.240
+the USA to access
+those files or you
+
+35
+00:01:46.240 --> 00:01:49.580
+want people only outside
+the USA to access
+
+36
+00:01:49.580 --> 00:01:53.825
+this type of files or
+a specific information.
+
+37
+00:01:53.825 --> 00:01:57.920
+You can also restrict the access
+through transactions.
+
+38
+00:01:57.920 --> 00:02:01.500
+You don't want people to write on
+
+39
+00:02:01.500 --> 00:02:03.470
+specific files or
+maybe you want people
+
+40
+00:02:03.470 --> 00:02:06.480
+to be able to read those files.
+
+41
+00:02:07.030 --> 00:02:10.115
+We need to talk about
+Need to Know as well.
+
+42
+00:02:10.115 --> 00:02:13.520
+The Need to Know is
+the justification
+
+43
+00:02:13.520 --> 00:02:17.165
+for somebody to request
+access to a specific data.
+
+44
+00:02:17.165 --> 00:02:20.120
+If my specific job
+
+45
+00:02:20.120 --> 00:02:22.745
+or my job duties require
+me to know something
+
+46
+00:02:22.745 --> 00:02:24.335
+and maybe that will be
+
+47
+00:02:24.335 --> 00:02:26.165
+the justification for me to
+
+48
+00:02:26.165 --> 00:02:29.320
+have access to a specific files
+and directories.
+
+49
+00:02:29.320 --> 00:02:31.760
+In all of this, is basically a
+
+50
+00:02:31.760 --> 00:02:34.695
+centralized on something
+that's called Single Sign-on.
+
+51
+00:02:34.695 --> 00:02:39.175
+It's a very what you
+use on enterprises.
+
+52
+00:02:39.175 --> 00:02:42.010
+What this does is you
+basically you login
+
+53
+00:02:42.010 --> 00:02:45.260
+once and the Single Sign-on
+will allow you
+
+54
+00:02:45.260 --> 00:02:47.960
+access to websites or to
+
+55
+00:02:47.960 --> 00:02:49.490
+different parts
+with just a single
+
+56
+00:02:49.490 --> 00:02:52.610
+one time login process.
+
+57
+00:02:52.610 --> 00:02:55.670
+There are some
+authentication concepts
+
+58
+00:02:55.670 --> 00:02:56.875
+that we need to understand.
+
+59
+00:02:56.875 --> 00:02:59.650
+First of all, it's
+the identity proofs.
+
+60
+00:02:59.650 --> 00:03:02.630
+On most systems they will ask you
+
+61
+00:03:02.630 --> 00:03:06.220
+for an identity and
+authentication.
+
+62
+00:03:06.220 --> 00:03:08.360
+To put an example, the username
+
+63
+00:03:08.360 --> 00:03:09.830
+will be your identity proof.
+
+64
+00:03:09.830 --> 00:03:14.075
+That's something that
+identifies you and only you.
+
+65
+00:03:14.075 --> 00:03:16.910
+But after identifying
+yourself you need to
+
+66
+00:03:16.910 --> 00:03:18.080
+authenticate that you are
+
+67
+00:03:18.080 --> 00:03:20.970
+actually who you
+are saying you are.
+
+68
+00:03:20.970 --> 00:03:23.265
+Basically that's done
+through the password,
+
+69
+00:03:23.265 --> 00:03:25.890
+so the password will give
+you authentication and
+
+70
+00:03:25.890 --> 00:03:29.490
+your username will give
+you identification.
+
+71
+00:03:29.490 --> 00:03:35.130
+Kerberos it's a protocol used
+for implementing cosine on.
+
+72
+00:03:35.130 --> 00:03:39.040
+There are some mutual
+authentication like CHAP,
+
+73
+00:03:39.040 --> 00:03:42.020
+these are some type of
+
+74
+00:03:42.020 --> 00:03:43.910
+authentication processes that are
+
+75
+00:03:43.910 --> 00:03:45.665
+used to communicate to systems.
+
+76
+00:03:45.665 --> 00:03:48.660
+They are rely on a [inaudible].
+
+77
+00:03:48.660 --> 00:03:53.430
+More specifically
+in active directory
+
+78
+00:03:53.430 --> 00:03:54.570
+we have something called
+
+79
+00:03:54.570 --> 00:03:57.675
+Security ID and this basically
+
+80
+00:03:57.675 --> 00:04:01.770
+it's a unique ID given
+to objects and subjects.
+
+81
+00:04:01.770 --> 00:04:04.635
+We mean it's an ID
+that identifies
+
+82
+00:04:04.635 --> 00:04:06.650
+a person and also it's
+
+83
+00:04:06.650 --> 00:04:08.870
+able to identify
+an object meaning,
+
+84
+00:04:08.870 --> 00:04:12.410
+for example, a specific group
+or a specific file.
+
+85
+00:04:12.410 --> 00:04:15.410
+Most of the operating
+systems that
+
+86
+00:04:15.410 --> 00:04:18.225
+we know use Discretionary
+Access Controls,
+
+87
+00:04:18.225 --> 00:04:21.680
+basically the Discretionary
+Access Control
+
+88
+00:04:21.680 --> 00:04:24.010
+is a type of access
+control that allows
+
+89
+00:04:24.010 --> 00:04:26.810
+the users to give access
+
+90
+00:04:26.810 --> 00:04:30.235
+to their own data to
+whomever they want.
+
+91
+00:04:30.235 --> 00:04:33.930
+Meaning if I have a text file
+or a sensitive data,
+
+92
+00:04:33.930 --> 00:04:36.540
+I'm responsible for who
+
+93
+00:04:36.540 --> 00:04:39.080
+is allowed to view and edit
+that file because it's
+
+94
+00:04:39.080 --> 00:04:41.840
+my file and it's
+discretionary to me to give
+
+95
+00:04:41.840 --> 00:04:45.940
+that access to anyone
+that I want to.

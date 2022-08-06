@@ -1,0 +1,631 @@
+WEBVTT
+
+1
+00:00:04.220 --> 00:00:08.700
+In this video, you
+will learn to describe
+
+2
+00:00:08.700 --> 00:00:11.670
+which compliance policies
+most organizations
+
+3
+00:00:11.670 --> 00:00:13.635
+are required to follow,
+
+4
+00:00:13.635 --> 00:00:18.225
+described the use of audits
+in cybersecurity compliance.
+
+5
+00:00:18.225 --> 00:00:22.065
+We go to compliance.
+Here's a quick example of
+
+6
+00:00:22.065 --> 00:00:26.580
+couple of regulation
+or compliance policies
+
+7
+00:00:26.580 --> 00:00:28.530
+that most of the organizations in
+
+8
+00:00:28.530 --> 00:00:31.500
+the United States or in
+other parts of the world
+
+9
+00:00:31.500 --> 00:00:34.065
+need to have or to
+
+10
+00:00:34.065 --> 00:00:36.870
+implement in order to
+operate certain countries.
+
+11
+00:00:36.870 --> 00:00:38.400
+So for example we have SOX.
+
+12
+00:00:38.400 --> 00:00:39.975
+SOX is a financial
+
+13
+00:00:39.975 --> 00:00:42.930
+compliance or financial
+regulation program.
+
+14
+00:00:42.930 --> 00:00:44.790
+HIPPA, we already
+mentioned HIPPA.
+
+15
+00:00:44.790 --> 00:00:46.975
+It's something related
+to healthcare,
+
+16
+00:00:46.975 --> 00:00:50.460
+how the healthcare or
+organizations deal with
+
+17
+00:00:50.460 --> 00:00:53.995
+the privacy of data of
+their patients, for example,
+
+18
+00:00:53.995 --> 00:00:57.110
+how they transmit the data
+between hospitals,
+
+19
+00:00:57.110 --> 00:01:01.280
+different healthcare
+organizations and for example,
+
+20
+00:01:01.280 --> 00:01:02.960
+if they transmit the information
+
+21
+00:01:02.960 --> 00:01:04.445
+in a secure way for example.
+
+22
+00:01:04.445 --> 00:01:08.055
+GLBA is something
+related to finance.
+
+23
+00:01:08.055 --> 00:01:11.750
+PCI/DSS, these are related to
+
+24
+00:01:11.750 --> 00:01:17.180
+the manage of credit cards
+of financial processes.
+
+25
+00:01:17.180 --> 00:01:19.060
+So if you want, for example,
+
+26
+00:01:19.060 --> 00:01:21.980
+to start processing
+credit cards on
+
+27
+00:01:21.980 --> 00:01:26.510
+your servers because you
+have an online store,
+
+28
+00:01:26.510 --> 00:01:29.755
+probably you will need
+to comply with PCI/DSS.
+
+29
+00:01:29.755 --> 00:01:34.460
+Normally, a lot of companies
+that deals with PCI/DSS,
+
+30
+00:01:34.460 --> 00:01:36.605
+it's to perform, for example,
+
+31
+00:01:36.605 --> 00:01:40.010
+Panthers or [inaudible]
+assessment on regular basis
+
+32
+00:01:40.010 --> 00:01:43.670
+for them to comply with PCI/DSS.
+
+33
+00:01:43.670 --> 00:01:49.510
+So here's just examples
+for their compliance.
+
+34
+00:01:51.700 --> 00:01:54.860
+One of the last part
+that are important to
+
+35
+00:01:54.860 --> 00:01:57.020
+understand is the main difference
+
+36
+00:01:57.020 --> 00:01:59.915
+between the process that
+any organization could
+
+37
+00:01:59.915 --> 00:02:02.960
+perform in order to identify if
+
+38
+00:02:02.960 --> 00:02:06.045
+they are compliant with
+a certain regulation
+
+39
+00:02:06.045 --> 00:02:09.950
+or a certain framework that
+they want to implement.
+
+40
+00:02:09.950 --> 00:02:13.220
+One of the things that they
+need to perform is an audit.
+
+41
+00:02:13.220 --> 00:02:15.050
+Now an audit could be
+
+42
+00:02:15.050 --> 00:02:17.885
+an internal audit or it
+could be an external audit.
+
+43
+00:02:17.885 --> 00:02:19.910
+The internal audit is obviously
+
+44
+00:02:19.910 --> 00:02:22.370
+performed by
+internal departments,
+
+45
+00:02:22.370 --> 00:02:25.880
+by internal audit department and
+
+46
+00:02:25.880 --> 00:02:29.460
+that's something normal with
+most of the organizations.
+
+47
+00:02:29.460 --> 00:02:30.870
+That's a continuing process,
+
+48
+00:02:30.870 --> 00:02:33.839
+that's something that
+is normally performed
+
+49
+00:02:33.839 --> 00:02:37.355
+during all the year,
+during audit life-cycle.
+
+50
+00:02:37.355 --> 00:02:39.875
+But the difference here is
+
+51
+00:02:39.875 --> 00:02:43.130
+normally the internal
+departments will generate
+
+52
+00:02:43.130 --> 00:02:45.320
+reports but those reports are
+
+53
+00:02:45.320 --> 00:02:48.860
+necessarily to improve the
+operation of the organization.
+
+54
+00:02:48.860 --> 00:02:53.750
+The external audits are
+normally based on requirements.
+
+55
+00:02:53.750 --> 00:02:55.970
+So for example, if
+you want to comply
+
+56
+00:02:55.970 --> 00:02:59.045
+with PCI DSS you will need to
+
+57
+00:02:59.045 --> 00:03:04.730
+hire an external audit company
+to generate a report
+
+58
+00:03:04.730 --> 00:03:08.180
+and understand in which of
+
+59
+00:03:08.180 --> 00:03:12.094
+the PCI DSS part you
+are not complying,
+
+60
+00:03:12.094 --> 00:03:16.085
+or if you are complying in
+all that PCI DSS parts,
+
+61
+00:03:16.085 --> 00:03:18.830
+while the external company will
+
+62
+00:03:18.830 --> 00:03:21.560
+let you know on the report
+that you are able or
+
+63
+00:03:21.560 --> 00:03:27.620
+you can go now and apply for
+a PCI DSS certification or
+
+64
+00:03:27.620 --> 00:03:30.380
+process to be a part
+of or to start
+
+65
+00:03:30.380 --> 00:03:34.415
+dealing with credit
+cards for example.
+
+66
+00:03:34.415 --> 00:03:39.480
+Now here is a methodology
+
+67
+00:03:39.480 --> 00:03:44.565
+which you could use in
+your audit projects for example.
+
+68
+00:03:44.565 --> 00:03:47.030
+Basically these processes could
+
+69
+00:03:47.030 --> 00:03:49.550
+apply for external
+and internal audits,
+
+70
+00:03:49.550 --> 00:03:53.040
+but are actually pretty
+simple with three phases.
+
+71
+00:03:53.040 --> 00:03:55.050
+But inside each of the phases,
+
+72
+00:03:55.050 --> 00:03:56.550
+you will have a bunch of
+
+73
+00:03:56.550 --> 00:03:59.310
+steps and again this is
+something to standard.
+
+74
+00:03:59.310 --> 00:04:02.480
+So it not necessarily means
+that the same methodology
+
+75
+00:04:02.480 --> 00:04:04.220
+will be applied or will
+
+76
+00:04:04.220 --> 00:04:06.290
+be valid for
+all the organization.
+
+77
+00:04:06.290 --> 00:04:08.270
+But this is just the baseline.
+
+78
+00:04:08.270 --> 00:04:10.160
+So on phase one,
+
+79
+00:04:10.160 --> 00:04:14.040
+you will have to understand
+the organization view,
+
+80
+00:04:14.040 --> 00:04:15.465
+you will need to understand
+
+81
+00:04:15.465 --> 00:04:17.685
+the organization that
+you are dealing with,
+
+82
+00:04:17.685 --> 00:04:21.585
+you will need to identify
+the key players,
+
+83
+00:04:21.585 --> 00:04:24.650
+the key users for example
+of system in motive to
+
+84
+00:04:24.650 --> 00:04:27.980
+start looking for any finding,
+
+85
+00:04:27.980 --> 00:04:31.700
+any incident or issue that
+
+86
+00:04:31.700 --> 00:04:35.795
+you may report in
+your final audit report.
+
+87
+00:04:35.795 --> 00:04:38.180
+Also you will need
+to create a profile,
+
+88
+00:04:38.180 --> 00:04:40.160
+you will need to create
+a threat profile.
+
+89
+00:04:40.160 --> 00:04:42.950
+For example if you are
+auditing a software,
+
+90
+00:04:42.950 --> 00:04:44.705
+you will need to understand well,
+
+91
+00:04:44.705 --> 00:04:47.510
+this is a web-based software and
+
+92
+00:04:47.510 --> 00:04:50.450
+one of the threats that
+the software could have,
+
+93
+00:04:50.450 --> 00:04:52.445
+is cross-site scripting attack.
+
+94
+00:04:52.445 --> 00:04:57.315
+So it doesn't mean that
+the software that you are
+
+95
+00:04:57.315 --> 00:04:59.610
+auditing right now is prone
+
+96
+00:04:59.610 --> 00:05:02.840
+to or have an issue regarding
+cross-site scripting.
+
+97
+00:05:02.840 --> 00:05:05.015
+But that's something that in
+
+98
+00:05:05.015 --> 00:05:08.060
+phase number two and
+phase number three,
+
+99
+00:05:08.060 --> 00:05:11.255
+you will need to assess and
+you will need to identify.
+
+100
+00:05:11.255 --> 00:05:15.905
+So again if you know that you
+are dealing with a web page
+
+101
+00:05:15.905 --> 00:05:18.200
+or the web software will
+
+102
+00:05:18.200 --> 00:05:20.780
+be prone to a cross-site
+scripting attack.
+
+103
+00:05:20.780 --> 00:05:22.370
+On phase number two,
+
+104
+00:05:22.370 --> 00:05:24.925
+you will need to evaluate,
+
+105
+00:05:24.925 --> 00:05:26.840
+you will need to
+understand and you will
+
+106
+00:05:26.840 --> 00:05:28.730
+need to debt or probably
+
+107
+00:05:28.730 --> 00:05:31.775
+interview to the creators
+of software and
+
+108
+00:05:31.775 --> 00:05:33.515
+ask if they are already
+
+109
+00:05:33.515 --> 00:05:36.020
+perform any kind of
+app for example,
+
+110
+00:05:36.020 --> 00:05:38.860
+Security Review on
+the web system,
+
+111
+00:05:38.860 --> 00:05:42.050
+on the web application
+and the results of
+
+112
+00:05:42.050 --> 00:05:44.410
+the review will have
+
+113
+00:05:44.410 --> 00:05:46.670
+something regarding
+cross-site scripting.
+
+114
+00:05:46.670 --> 00:05:53.555
+If there is any security review
+for that web system,
+
+115
+00:05:53.555 --> 00:05:58.070
+probably you will need
+to create your own test,
+
+116
+00:05:58.070 --> 00:06:02.180
+your own assessment or you
+will need to inform on
+
+117
+00:06:02.180 --> 00:06:04.250
+your report that
+this software doesn't
+
+118
+00:06:04.250 --> 00:06:07.720
+have any security review.
+
+119
+00:06:07.720 --> 00:06:11.640
+That will guarantee
+that is truthful for
+
+120
+00:06:11.640 --> 00:06:14.105
+example and the last part
+
+121
+00:06:14.105 --> 00:06:16.550
+is the risk assessment.
+The risk analysis.
+
+122
+00:06:16.550 --> 00:06:18.815
+That process will translate
+
+123
+00:06:18.815 --> 00:06:23.045
+all your findings in
+your audit report, into a risk.
+
+124
+00:06:23.045 --> 00:06:26.330
+This could be on the example
+
+125
+00:06:26.330 --> 00:06:28.810
+that we are talking about
+the cross-site scripting,
+
+126
+00:06:28.810 --> 00:06:34.765
+if you detect that
+the organization is not
+
+127
+00:06:34.765 --> 00:06:39.350
+performing any security
+assessment and you don't have
+
+128
+00:06:39.350 --> 00:06:43.650
+any widths or any evidence
+that will let you know that,
+
+129
+00:06:43.650 --> 00:06:48.390
+yes, this software is not
+prone to cross-site scripting.
+
+130
+00:06:48.390 --> 00:06:53.115
+Well. You need to categorize
+that finding into a risk.
+
+131
+00:06:53.115 --> 00:06:56.145
+Is this a high risk
+for your organization?
+
+132
+00:06:56.145 --> 00:06:58.325
+Well. If your business depends
+
+133
+00:06:58.325 --> 00:07:02.385
+on that web system
+probably it's a high-risk,
+
+134
+00:07:02.385 --> 00:07:04.430
+probably it's a critical risk.
+
+135
+00:07:04.430 --> 00:07:06.050
+So you will need to understand,
+
+136
+00:07:06.050 --> 00:07:09.690
+you will need to translate
+those findings into risk.

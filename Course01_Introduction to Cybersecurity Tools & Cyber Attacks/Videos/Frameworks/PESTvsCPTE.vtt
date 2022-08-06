@@ -1,0 +1,511 @@
+WEBVTT
+
+1
+00:00:04.190 --> 00:00:07.695
+In this video, you will learn to;
+
+2
+00:00:07.695 --> 00:00:11.175
+describe a penetration
+testing process,
+
+3
+00:00:11.175 --> 00:00:14.160
+Mile-2 CPTE training,
+
+4
+00:00:14.160 --> 00:00:16.860
+and what is meant
+by ethical hacking.
+
+5
+00:00:16.860 --> 00:00:20.445
+Part of this session is
+the penetration testing process.
+
+6
+00:00:20.445 --> 00:00:22.785
+The penetration testing phases
+
+7
+00:00:22.785 --> 00:00:27.315
+that in the audit
+we just understand,
+
+8
+00:00:27.315 --> 00:00:29.830
+for example, that we don't
+have the web system.
+
+9
+00:00:29.830 --> 00:00:33.680
+We don't have any assessment
+yet to understand
+
+10
+00:00:33.680 --> 00:00:35.690
+or to review if the system is
+
+11
+00:00:35.690 --> 00:00:37.880
+prone to cross-site scripting.
+
+12
+00:00:37.880 --> 00:00:40.430
+Well, on that pentesting site,
+
+13
+00:00:40.430 --> 00:00:42.680
+we will go and we will
+
+14
+00:00:42.680 --> 00:00:45.155
+test the cross-site
+scripting into the system.
+
+15
+00:00:45.155 --> 00:00:48.405
+We will act like an attacker,
+
+16
+00:00:48.405 --> 00:00:49.619
+like in a hacker,
+
+17
+00:00:49.619 --> 00:00:51.345
+and try to explore the system,
+
+18
+00:00:51.345 --> 00:00:53.955
+try to perform
+the cross-site scripting
+
+19
+00:00:53.955 --> 00:00:55.755
+and understand what happens.
+
+20
+00:00:55.755 --> 00:00:57.869
+Understand if the system
+
+21
+00:00:57.869 --> 00:01:00.650
+is prone to cross-site scripting.
+
+22
+00:01:00.650 --> 00:01:03.365
+Well, let's simulate,
+let's attack the system,
+
+23
+00:01:03.365 --> 00:01:05.525
+let's generate
+the cross-site scripting
+
+24
+00:01:05.525 --> 00:01:07.130
+attack into the system,
+
+25
+00:01:07.130 --> 00:01:09.070
+and let's see what happened.
+
+26
+00:01:09.070 --> 00:01:10.325
+Let's see if the system,
+
+27
+00:01:10.325 --> 00:01:13.280
+let me send a message to a user,
+
+28
+00:01:13.280 --> 00:01:15.140
+and let me, through the user,
+
+29
+00:01:15.140 --> 00:01:18.260
+to go to an external
+website and try
+
+30
+00:01:18.260 --> 00:01:21.840
+to hack the user's computer,
+
+31
+00:01:21.840 --> 00:01:23.195
+try to hack the system.
+
+32
+00:01:23.195 --> 00:01:26.525
+So basically,
+the penetration testing or
+
+33
+00:01:26.525 --> 00:01:28.595
+the ethical hacking
+process this is
+
+34
+00:01:28.595 --> 00:01:31.585
+just methodology used by Mile-2,
+
+35
+00:01:31.585 --> 00:01:33.710
+is a vendor that has
+
+36
+00:01:33.710 --> 00:01:36.410
+a lot of cybersecurity
+certification,
+
+37
+00:01:36.410 --> 00:01:39.440
+but this is just a basic
+and the standard process.
+
+38
+00:01:39.440 --> 00:01:41.510
+So you will need to footprinting
+
+39
+00:01:41.510 --> 00:01:44.550
+your target on the same target
+
+40
+00:01:44.550 --> 00:01:46.830
+that we have the web
+application program.
+
+41
+00:01:46.830 --> 00:01:49.050
+We will need to
+understand first of all,
+
+42
+00:01:49.050 --> 00:01:51.000
+what kind of system
+we are dealing with,
+
+43
+00:01:51.000 --> 00:01:53.150
+if this is a web
+system or dealing
+
+44
+00:01:53.150 --> 00:01:55.670
+with the WordPress platform,
+
+45
+00:01:55.670 --> 00:01:58.250
+we're dealing with
+a customized platform,
+
+46
+00:01:58.250 --> 00:02:01.355
+we're dealing with
+HTML5 platform.
+
+47
+00:02:01.355 --> 00:02:04.280
+The scanning planning process
+will let us know
+
+48
+00:02:04.280 --> 00:02:07.490
+or in the Pentester view,
+
+49
+00:02:07.490 --> 00:02:12.045
+we'll give the Pentester
+
+50
+00:02:12.045 --> 00:02:16.755
+the knowledge to understand
+if there is any port open.
+
+51
+00:02:16.755 --> 00:02:18.585
+What is the operative system
+
+52
+00:02:18.585 --> 00:02:21.930
+of the web server application?
+
+53
+00:02:21.930 --> 00:02:23.565
+What is the language?
+
+54
+00:02:23.565 --> 00:02:25.440
+What is the database that
+
+55
+00:02:25.440 --> 00:02:29.145
+the web application
+is reporting to?
+
+56
+00:02:29.145 --> 00:02:31.220
+On the enumeration, we will
+
+57
+00:02:31.220 --> 00:02:33.230
+understand any kind
+of techniques,
+
+58
+00:02:33.230 --> 00:02:36.140
+any kind of processes that
+we are going to generate,
+
+59
+00:02:36.140 --> 00:02:39.695
+that we're going to use
+for the access system.
+
+60
+00:02:39.695 --> 00:02:43.520
+Obviously, we have the
+exploitation or penetration part,
+
+61
+00:02:43.520 --> 00:02:46.440
+and these means that we're
+going to perform the attacks.
+
+62
+00:02:46.440 --> 00:02:48.155
+We're going to generate
+get the attacks.
+
+63
+00:02:48.155 --> 00:02:49.480
+If we understand that we are
+
+64
+00:02:49.480 --> 00:02:51.080
+dealing with
+a WordPress platform,
+
+65
+00:02:51.080 --> 00:02:52.585
+and the WordPress platform
+
+66
+00:02:52.585 --> 00:02:55.515
+is in a server in
+the internal network
+
+67
+00:02:55.515 --> 00:02:58.950
+and the same WordPress platform
+
+68
+00:02:58.950 --> 00:03:01.305
+prompts to a SQL
+injection attack,
+
+69
+00:03:01.305 --> 00:03:04.310
+and we could get the information
+for the database.
+
+70
+00:03:04.310 --> 00:03:06.290
+Well, let's generate the attack,
+
+71
+00:03:06.290 --> 00:03:09.270
+let's create the attack
+and see what happen.
+
+72
+00:03:09.270 --> 00:03:12.310
+If the attack was successful,
+
+73
+00:03:12.310 --> 00:03:15.650
+we will have to perform
+a set of steps.
+
+74
+00:03:15.650 --> 00:03:18.249
+For example, we could
+elevate the privilege,
+
+75
+00:03:18.249 --> 00:03:20.355
+we could manipulated the data.
+
+76
+00:03:20.355 --> 00:03:22.170
+We need to cover our tracks.
+
+77
+00:03:22.170 --> 00:03:24.165
+For example, we don't want for
+
+78
+00:03:24.165 --> 00:03:29.195
+that CSEC to detect
+our steps in the system.
+
+79
+00:03:29.195 --> 00:03:33.415
+So probably, we will need
+to cover our tracks.
+
+80
+00:03:33.415 --> 00:03:36.530
+We will have to leave a backdoor.
+
+81
+00:03:36.530 --> 00:03:37.895
+For example, we will want to
+
+82
+00:03:37.895 --> 00:03:39.770
+come back later to the system,
+
+83
+00:03:39.770 --> 00:03:43.550
+and we don't want to perform
+any of the previous steps.
+
+84
+00:03:43.550 --> 00:03:45.770
+We just want to go
+and double-click on
+
+85
+00:03:45.770 --> 00:03:50.035
+the LinkIn in our Desktop and
+get access to the system,
+
+86
+00:03:50.035 --> 00:03:52.545
+then we will need to
+leave a backdoor.
+
+87
+00:03:52.545 --> 00:03:54.740
+Those processes, those steps,
+
+88
+00:03:54.740 --> 00:03:57.140
+we'll understand or will give us
+
+89
+00:03:57.140 --> 00:04:00.705
+an understanding that the
+system is prone to attacks,
+
+90
+00:04:00.705 --> 00:04:02.735
+and not just prone to attack but
+
+91
+00:04:02.735 --> 00:04:05.600
+the system will have
+or will deal with
+
+92
+00:04:05.600 --> 00:04:08.120
+attacks in a way
+that will give the
+
+93
+00:04:08.120 --> 00:04:10.910
+attacker the full control
+of the system,
+
+94
+00:04:10.910 --> 00:04:13.070
+or will block the attack and
+
+95
+00:04:13.070 --> 00:04:16.520
+will drop all the connections
+from the attacker computer.
+
+96
+00:04:16.520 --> 00:04:19.860
+So that process,
+
+97
+00:04:19.860 --> 00:04:22.280
+the pentest process
+is normally known
+
+98
+00:04:22.280 --> 00:04:25.040
+as an offensive security scan,
+
+99
+00:04:25.040 --> 00:04:28.530
+is something that you will
+need to act like an attacker,
+
+100
+00:04:28.530 --> 00:04:30.180
+you will need to act as
+
+101
+00:04:30.180 --> 00:04:34.590
+a hacker and perform
+attacks into systems.
+
+102
+00:04:34.590 --> 00:04:37.520
+Obviously, you will need
+to have permission from
+
+103
+00:04:37.520 --> 00:04:42.605
+your client in order to proceed
+with these kind of test.
+
+104
+00:04:42.605 --> 00:04:44.740
+But on the audit,
+
+105
+00:04:44.740 --> 00:04:47.450
+the important part here is
+
+106
+00:04:47.450 --> 00:04:50.405
+understand that if you
+will perform an audit,
+
+107
+00:04:50.405 --> 00:04:52.820
+this is not necessarily
+a pentest or
+
+108
+00:04:52.820 --> 00:04:55.685
+a pentest is not
+necessarily an audit.
+
+109
+00:04:55.685 --> 00:04:57.949
+So there is a lot of differences,
+
+110
+00:04:57.949 --> 00:05:00.170
+there is a lot of things that
+
+111
+00:05:00.170 --> 00:05:02.330
+you will keep in mind in order to
+
+112
+00:05:02.330 --> 00:05:07.025
+perform each of both or
+each of the processes,
+
+113
+00:05:07.025 --> 00:05:12.290
+each of the techniques that
+we show you in the session.
