@@ -20,9 +20,9 @@
 
 # CIA Triad vs Access Management
 
-- [CIA](./videos/CIA)
+- [CIA](./Videos/CIA)
 
-- [Access Management](./videos/Access%20Management)
+- [Access Management](./Videos/Access%20Management)
 
 # Incident Response
 
@@ -52,25 +52,25 @@
 
 Video01
 
-    [Introduction to Frameworks and Best Practices](./videos/Frameworks) #IntroFrameworks.mp4
+    [Introduction to Frameworks and Best Practices](./Videos/Frameworks) #IntroFrameworks.mp4
 
 Video02
 
-    [IT Governance Process](./videos/Frameworks) # ITGovernanceProcess.mp4
+    [IT Governance Process](./Videos/Frameworks) # ITGovernanceProcess.mp4
 
 Video03
 
-     [Cybersecurity Compliance and Audit Overview](./videos/Frameworks) # ComplianceVSAuditOverview.mp4
+     [Cybersecurity Compliance and Audit Overview](./Videos/Frameworks) # ComplianceVSAuditOverview.mp4
 
 Video04
 
-    [Pentest Process and Mile 2 CPTE Training](./videos/Frameworks) # PESTvsCPTE.mp4
+    [Pentest Process and Mile 2 CPTE Training](./Videos/Frameworks) # PESTvsCPTE.mp4
 
     [https://www.mile2.com/penetration-testing-engineer-outline/](https://www.mile2.com/penetration-testing-engineer-outline/)
 
 Video05
 
-    [OWASP framework](./videos/Frameworks) # OWASP.mp4
+    [OWASP framework](./Videos/Frameworks) # OWASP.mp4
 
     [OWASP Top Ten (2013) | OWASP Foundation](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project#OWASP_Top_10_for_2013)
 
