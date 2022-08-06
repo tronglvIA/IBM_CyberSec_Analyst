@@ -61,35 +61,35 @@
 
 ![](../images/2022-08-06-14-44-16-image.png)
 
-[How antivirus and antimalware programs detect, block and remove viruses and malware from infected systems. Also The purpose of the malware definitions or signatures](./videos/Anti)
+[How antivirus and antimalware programs detect, block and remove viruses and malware from infected systems. Also The purpose of the malware definitions or signatures](./Videos/Anti)
 
 # Introduction to Crytography
 
 **`# Introduction of Crytography`**
 
-    [An introduction of Cryptography](./videos/Cryto) # IntroCryto.mp4
+    [An introduction of Cryptography](./Videos/Cryto) # IntroCryto.mp4
 
 **`# Types of Cryptography`**
 
-    [Types of Cryptography](./videos/Cryto) # TypesofCryptography.mp4
+    [Types of Cryptography](./Videos/Cryto) # TypesofCryptography.mp4
 
 **`# Cryptographic Attacks`**
 
-    [Cryptographic Attacks](./videos/Cryto) # CryptographicAttacks.mp4
+    [Cryptographic Attacks](./Videos/Cryto) # CryptographicAttacks.mp4
 
 **`# Cryptography - a different perspective from a Security architect`**
 
-    [different perspective from a Security architect](./videos/Cryto) # DifferentPerspective.mp4
+    [different perspective from a Security architect](./Videos/Cryto) # DifferentPerspective.mp4
 
 # Frist look ar Penetration Testing and Digital Forensics
 
 **`# Penetration Testing Introduction`**
 
-    [Pentest Introduction](./videos/intro-PEST-DF) # introPEST.mp4
+    [Pentest Introduction](./Videos/intro-PEST-DF) # introPEST.mp4
 
 **`# Pentest Methodologies`**
 
-    [Pentest Methodologies](./videos/intro-PEST-DF) # PESTMethods.mp4
+    [Pentest Methodologies](./Videos/intro-PEST-DF) # PESTMethods.mp4
 
     // List link in PESTMethods.mp4:
 
@@ -105,7 +105,7 @@
 
 **`# Vulnerability Tests`**
 
-    [Vulnerability Tests](./videos/intro-PEST-DF) # VulTest.mp4
+    [Vulnerability Tests](./Videos/intro-PEST-DF) # VulTest.mp4
 
     // Link in VulTest.mp4
 
@@ -113,7 +113,7 @@
 
 **`# What is Digital Forensics?`**
 
-    [What is Digital Forensics?](./videos/intro-PEST-DF) # DF.mp4
+    [What is Digital Forensics?](./Videos/intro-PEST-DF) # DF.mp4
 
 # Resource review - Securityintelligence.com
 
