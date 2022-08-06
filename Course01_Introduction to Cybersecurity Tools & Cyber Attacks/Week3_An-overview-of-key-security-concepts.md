@@ -88,7 +88,7 @@ We urge all companies to adopt this awareness document within their organization
 
 Review the NEW Top 10 Project Findings for 2021
 
-[OWASP Top 10:2021](https://owasp.org/Top10/ "owasp top10")
+[OWASP Top 10:2021](https://owasp.org/Top10/ "owasp top10") 
 
 # NIST, The US National Institute for Standards and Technology
 
