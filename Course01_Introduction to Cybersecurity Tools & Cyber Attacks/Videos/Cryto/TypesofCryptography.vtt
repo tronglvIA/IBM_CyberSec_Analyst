@@ -1,0 +1,499 @@
+WEBVTT
+
+1
+00:00:04.280 --> 00:00:07.425
+In this video, you will learn to
+
+2
+00:00:07.425 --> 00:00:10.380
+describe the three
+encryption types used in
+
+3
+00:00:10.380 --> 00:00:13.590
+modern cryptography
+including typical uses and
+
+4
+00:00:13.590 --> 00:00:18.150
+advantages of each;
+symmetric, asymmetric, hash.
+
+5
+00:00:18.150 --> 00:00:20.900
+On this section we will
+discuss three main types
+
+6
+00:00:20.900 --> 00:00:24.485
+of cryptography or
+modern encryption types.
+
+7
+00:00:24.485 --> 00:00:26.030
+There are the symmetric,
+
+8
+00:00:26.030 --> 00:00:28.685
+the asymmetric and
+the hash functions.
+
+9
+00:00:28.685 --> 00:00:32.190
+Symmetric Encryption, there
+are several cross of it
+
+10
+00:00:32.190 --> 00:00:36.195
+or strengths both
+include the speed,
+
+11
+00:00:36.195 --> 00:00:39.240
+and the fact that the
+cryptographic strength
+
+12
+00:00:39.240 --> 00:00:43.755
+increases by bit of the key.
+
+13
+00:00:43.755 --> 00:00:45.710
+So meaning, if we
+have a bigger key the
+
+14
+00:00:45.710 --> 00:00:48.425
+cryptographic will
+be more secure.
+
+15
+00:00:48.425 --> 00:00:51.200
+The up welling with
+Symmetric Encryption is that
+
+16
+00:00:51.200 --> 00:00:54.575
+the key to be shared
+using a secure method
+
+17
+00:00:54.575 --> 00:00:58.100
+sometimes an out-of-band
+method meaning we cannot send
+
+18
+00:00:58.100 --> 00:00:59.960
+a key plaintext to
+the third party
+
+19
+00:00:59.960 --> 00:01:03.020
+using an unsecured channel.
+
+20
+00:01:03.020 --> 00:01:06.240
+Because as we
+discussed previously,
+
+21
+00:01:06.240 --> 00:01:11.010
+the whole extent of the
+encryption algorithm or
+
+22
+00:01:11.010 --> 00:01:12.380
+the algorithm is based on
+
+23
+00:01:12.380 --> 00:01:14.090
+just one key and that key needs
+
+24
+00:01:14.090 --> 00:01:16.750
+to remain secret at all times.
+
+25
+00:01:16.750 --> 00:01:18.940
+DES, Triple DES and AES are
+
+26
+00:01:18.940 --> 00:01:22.015
+just some of the examples
+that we currently use
+
+27
+00:01:22.015 --> 00:01:24.100
+and AES is one of
+
+28
+00:01:24.100 --> 00:01:26.965
+the most modern
+symmetric encryption
+
+29
+00:01:26.965 --> 00:01:29.110
+that we currently
+us as up to date.
+
+30
+00:01:29.110 --> 00:01:32.735
+On the other hand, asymmetric
+encryption uses two keys.
+
+31
+00:01:32.735 --> 00:01:35.505
+Whitfield Diffie and
+Martin Hellman are the ones
+
+32
+00:01:35.505 --> 00:01:38.230
+that created the
+Diffie-Hellman algorithm.
+
+33
+00:01:38.230 --> 00:01:39.670
+They're considered
+the pioneers of
+
+34
+00:01:39.670 --> 00:01:42.425
+the modern asymmetric encryption.
+
+35
+00:01:42.425 --> 00:01:44.820
+On asymmetric encryption,
+
+36
+00:01:44.820 --> 00:01:47.190
+we have to keys as
+I mentioned before.
+
+37
+00:01:47.190 --> 00:01:50.050
+One key can be made
+publicly called
+
+38
+00:01:50.050 --> 00:01:51.340
+public key and the other one
+
+39
+00:01:51.340 --> 00:01:52.930
+needs to be kept
+private at all times,
+
+40
+00:01:52.930 --> 00:01:54.640
+it is called the private key.
+
+41
+00:01:54.640 --> 00:01:56.830
+Since we have
+two keys, one key is
+
+42
+00:01:56.830 --> 00:01:59.380
+used to encrypt and the other
+one is used to decrypt.
+
+43
+00:01:59.380 --> 00:02:01.730
+So basically whatever
+is encrypted with
+
+44
+00:02:01.730 --> 00:02:04.430
+the public key can
+only be decrypted
+
+45
+00:02:04.430 --> 00:02:07.140
+with the private key and
+the other way around as well.
+
+46
+00:02:07.140 --> 00:02:08.840
+Whatever is encrypted
+with the private key
+
+47
+00:02:08.840 --> 00:02:10.850
+can only really decrypted
+with the public key.
+
+48
+00:02:10.850 --> 00:02:14.240
+Asymmetric encryption is used
+in digital certificates,
+
+49
+00:02:14.240 --> 00:02:17.520
+it's used in public
+key infrastructures.
+
+50
+00:02:17.520 --> 00:02:21.170
+It uses the one-way algorithm
+to generate the two keys.
+
+51
+00:02:21.170 --> 00:02:23.720
+It's based on math like factoring
+
+52
+00:02:23.720 --> 00:02:26.365
+prime numbers and
+discrete logarithm.
+
+53
+00:02:26.365 --> 00:02:30.440
+This basically used for
+generating the two set of keys.
+
+54
+00:02:30.440 --> 00:02:32.270
+It's actually a lot smaller than
+
+55
+00:02:32.270 --> 00:02:34.955
+symmetric encryption and
+this is a reason why
+
+56
+00:02:34.955 --> 00:02:37.040
+whenever we use
+asymmetric encryption
+
+57
+00:02:37.040 --> 00:02:38.240
+most of the time we're
+
+58
+00:02:38.240 --> 00:02:39.980
+using symmetric
+encryption as well.
+
+59
+00:02:39.980 --> 00:02:42.125
+To put it in an example,
+whenever you visit
+
+60
+00:02:42.125 --> 00:02:47.150
+a HTTPS website or
+a secure website,
+
+61
+00:02:47.150 --> 00:02:50.945
+you use an asymmetric
+encryption first to exchange
+
+62
+00:02:50.945 --> 00:02:53.670
+the key for the
+symmetric encryption
+
+63
+00:02:53.670 --> 00:02:55.985
+to be used from
+that point forward.
+
+64
+00:02:55.985 --> 00:02:59.075
+So basically as we
+discussed earlier,
+
+65
+00:02:59.075 --> 00:03:01.640
+since we need to be
+able to exchange
+
+66
+00:03:01.640 --> 00:03:04.610
+the key for the symmetric
+encryption in a secure manner,
+
+67
+00:03:04.610 --> 00:03:07.310
+asymmetric encryption
+permits that we exchange
+
+68
+00:03:07.310 --> 00:03:10.280
+one key between two nodes or
+
+69
+00:03:10.280 --> 00:03:11.900
+two parties and from
+
+70
+00:03:11.900 --> 00:03:13.460
+that point forward
+we'll be able to use
+
+71
+00:03:13.460 --> 00:03:15.110
+symmetric encryption
+which is a lot
+
+72
+00:03:15.110 --> 00:03:18.510
+faster in a secure manner.
+
+73
+00:03:18.620 --> 00:03:22.070
+The hash functions
+provide encryption
+
+74
+00:03:22.070 --> 00:03:25.505
+using a one-way
+algorithm and no key.
+
+75
+00:03:25.505 --> 00:03:28.010
+This means that any length or
+
+76
+00:03:28.010 --> 00:03:29.750
+a variable-length plaintext is
+
+77
+00:03:29.750 --> 00:03:32.015
+hashed into a
+fixed-length hash value.
+
+78
+00:03:32.015 --> 00:03:36.335
+This is often called
+message digest or simply a hash.
+
+79
+00:03:36.335 --> 00:03:38.975
+This is used like we talked
+before for integrity.
+
+80
+00:03:38.975 --> 00:03:40.460
+If a message or
+
+81
+00:03:40.460 --> 00:03:44.960
+a plaintext changes and we
+can determine this by hashing
+
+82
+00:03:44.960 --> 00:03:48.210
+that same plain text and checking
+
+83
+00:03:48.210 --> 00:03:52.560
+the previous hash and
+the hash that we just did.
+
+84
+00:03:52.560 --> 00:03:54.960
+In other words, if we generated
+
+85
+00:03:54.960 --> 00:03:58.070
+a plaintext and we send
+it to somebody else
+
+86
+00:03:58.070 --> 00:04:00.030
+with a corresponding hash and
+
+87
+00:04:00.030 --> 00:04:03.100
+somebody changed that
+plaintext in transit,
+
+88
+00:04:03.100 --> 00:04:05.390
+then we can determine if
+
+89
+00:04:05.390 --> 00:04:07.790
+something is changing
+on that message using
+
+90
+00:04:07.790 --> 00:04:10.910
+the previews hash generated
+
+91
+00:04:10.910 --> 00:04:13.285
+and then the hash generated
+after the message arrived.
+
+92
+00:04:13.285 --> 00:04:16.520
+SHA-1 and MD5 are
+older algorithms.
+
+93
+00:04:16.520 --> 00:04:18.725
+They are prone to collisions
+
+94
+00:04:18.725 --> 00:04:24.155
+and SHA-2 is the newer and
+recommended alternative.
+
+95
+00:04:24.155 --> 00:04:26.390
+Hash functions are prone to
+
+96
+00:04:26.390 --> 00:04:28.730
+collisions or that's
+one of the issues.
+
+97
+00:04:28.730 --> 00:04:30.200
+SHA-1 and MD5 are
+
+98
+00:04:30.200 --> 00:04:33.680
+the older algorithms that are
+more prone to collisions.
+
+99
+00:04:33.680 --> 00:04:36.865
+A collision means
+two different plaintexts
+
+100
+00:04:36.865 --> 00:04:39.405
+having the same hash.
+
+101
+00:04:39.405 --> 00:04:42.710
+Again, since we have
+a limited amount
+
+102
+00:04:42.710 --> 00:04:45.700
+of characters that
+the hash actually outputs,
+
+103
+00:04:45.700 --> 00:04:51.710
+let's say MD5 outputs
+15 characters or more,
+
+104
+00:04:51.710 --> 00:04:55.220
+there is a possibility that
+two plaintexts can have
+
+105
+00:04:55.220 --> 00:04:59.675
+the same exact hash volume
+or message digest.
+
+106
+00:04:59.675 --> 00:05:02.100
+Those are called collisions.

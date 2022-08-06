@@ -1,0 +1,201 @@
+WEBVTT
+
+1
+00:00:04.250 --> 00:00:08.940
+In this video you will learn
+to describe what is meant by
+
+2
+00:00:08.940 --> 00:00:13.080
+confidentiality in
+the context of the CIA triad.
+
+3
+00:00:13.080 --> 00:00:15.210
+In this video we're
+going to talk about
+
+4
+00:00:15.210 --> 00:00:18.210
+the key concepts on the
+cybersecurity word,
+
+5
+00:00:18.210 --> 00:00:20.250
+especially something related to
+
+6
+00:00:20.250 --> 00:00:24.525
+a term that is commonly
+known as the CIA triad.
+
+7
+00:00:24.525 --> 00:00:27.090
+First, we need to understand that
+
+8
+00:00:27.090 --> 00:00:30.315
+this three letters all means
+everything in cybersecurity.
+
+9
+00:00:30.315 --> 00:00:33.270
+The meaning of each
+of these letters are
+
+10
+00:00:33.270 --> 00:00:36.510
+actually this C for
+confidentiality,
+
+11
+00:00:36.510 --> 00:00:41.950
+I for integrity, and
+A for availability.
+
+12
+00:00:42.260 --> 00:00:45.710
+Confidentiality is
+actually pretty simple.
+
+13
+00:00:45.710 --> 00:00:49.160
+We deal with confidentiality
+almost everyday,
+
+14
+00:00:49.160 --> 00:00:51.290
+and it means that we're going
+
+15
+00:00:51.290 --> 00:00:53.635
+to keep the data,
+keep the system,
+
+16
+00:00:53.635 --> 00:00:56.135
+keep our technology asset
+
+17
+00:00:56.135 --> 00:00:58.805
+or technological assets
+confidential,
+
+18
+00:00:58.805 --> 00:01:01.865
+or prevent any disclosure of
+
+19
+00:01:01.865 --> 00:01:03.200
+confidential data or
+
+20
+00:01:03.200 --> 00:01:06.000
+confidential access
+from this computer,
+
+21
+00:01:06.000 --> 00:01:11.355
+this system, that document,
+to non-authorized parties.
+
+22
+00:01:11.355 --> 00:01:15.500
+For example, one
+confidential data that we'd
+
+23
+00:01:15.500 --> 00:01:19.180
+normally use are
+our personal information,
+
+24
+00:01:19.180 --> 00:01:21.380
+on not necessarily
+all the people that we
+
+25
+00:01:21.380 --> 00:01:24.455
+know needs to understand
+or needs to know
+
+26
+00:01:24.455 --> 00:01:27.710
+all the data that we
+keep confidential on
+
+27
+00:01:27.710 --> 00:01:32.345
+our computers and our cell phone
+or something like that.
+
+28
+00:01:32.345 --> 00:01:37.430
+So in order to implement
+confidentiality in our work,
+
+29
+00:01:37.430 --> 00:01:39.005
+in the cybersecurity ward,
+
+30
+00:01:39.005 --> 00:01:40.490
+we normally use encryption.
+
+31
+00:01:40.490 --> 00:01:42.230
+On encryption,
+we're going to talk
+
+32
+00:01:42.230 --> 00:01:44.885
+about encryption
+in another video,
+
+33
+00:01:44.885 --> 00:01:47.510
+but encryption means
+that we are going
+
+34
+00:01:47.510 --> 00:01:50.120
+to use a cipher in order to
+
+35
+00:01:50.120 --> 00:01:52.160
+prevent any
+confidential data to be
+
+36
+00:01:52.160 --> 00:01:55.985
+exposed to the public
+or to non-authorized.
+
+37
+00:01:55.985 --> 00:01:59.045
+All the key elements
+that allow us to
+
+38
+00:01:59.045 --> 00:02:02.210
+implement confidentiality
+are for example,
+
+39
+00:02:02.210 --> 00:02:05.375
+authentication, access
+control, physical security,
+
+40
+00:02:05.375 --> 00:02:08.615
+things that will allow us to
+
+41
+00:02:08.615 --> 00:02:13.850
+maintain any certain level
+of restriction to our data,
+
+42
+00:02:13.850 --> 00:02:19.230
+to our systems, to
+our technology and our assets.

@@ -1,0 +1,218 @@
+WEBVTT
+
+1
+00:00:04.160 --> 00:00:09.315
+In this video, you will learn
+to describe what is meant
+
+2
+00:00:09.315 --> 00:00:14.770
+by Non-Repudiation and how
+it applies to the CIA Triad.
+
+3
+00:00:16.640 --> 00:00:19.080
+Another key term that we need to
+
+4
+00:00:19.080 --> 00:00:21.465
+understand is something
+called Non-Repudiation.
+
+5
+00:00:21.465 --> 00:00:23.420
+Non-Repudiation is pretty simple.
+
+6
+00:00:23.420 --> 00:00:27.285
+It's actually about the proof
+that the identity of
+
+7
+00:00:27.285 --> 00:00:31.290
+the data sender or
+the data receiver
+
+8
+00:00:31.290 --> 00:00:36.330
+is not modify, is not altered.
+
+9
+00:00:36.330 --> 00:00:38.070
+Not even on the transit,
+
+10
+00:00:38.070 --> 00:00:41.400
+but in the origin of the data.
+
+11
+00:00:41.400 --> 00:00:46.530
+So for example, how could
+we use something or how
+
+12
+00:00:46.530 --> 00:00:49.310
+could we implement
+some technology
+
+13
+00:00:49.310 --> 00:00:51.845
+that will allow us to understand.
+
+14
+00:00:51.845 --> 00:00:53.680
+If somebody send an e-mail,
+
+15
+00:00:53.680 --> 00:00:55.935
+that person is
+actually that person,
+
+16
+00:00:55.935 --> 00:00:58.755
+is not an attacker
+
+17
+00:00:58.755 --> 00:01:02.030
+from another country trying
+
+18
+00:01:02.030 --> 00:01:04.920
+to impersonate the person
+that sent the e-mail.
+
+19
+00:01:04.920 --> 00:01:06.765
+So that's something that we
+
+20
+00:01:06.765 --> 00:01:09.975
+normally implement with
+digital signatures.
+
+21
+00:01:09.975 --> 00:01:15.390
+Obviously, for example,
+this specific scenario,
+
+22
+00:01:15.390 --> 00:01:18.180
+if we go to our mail server,
+
+23
+00:01:18.180 --> 00:01:21.790
+we could also go to the
+logs and see if somebody,
+
+24
+00:01:21.790 --> 00:01:23.740
+for example, if
+Kenneth send an e-mail
+
+25
+00:01:23.740 --> 00:01:25.910
+to his boss saying that he quit.
+
+26
+00:01:25.910 --> 00:01:28.700
+So if there is no locks,
+
+27
+00:01:28.700 --> 00:01:31.270
+if there is no
+digital signature on
+
+28
+00:01:31.270 --> 00:01:35.140
+the receiver side that
+
+29
+00:01:35.140 --> 00:01:37.710
+says that Kenneth
+send this e-mail,
+
+30
+00:01:37.710 --> 00:01:40.060
+that should be something
+important to keep in
+
+31
+00:01:40.060 --> 00:01:42.970
+mind for the
+Non-Repudiation concept.
+
+32
+00:01:42.970 --> 00:01:45.400
+So as soon as Kenneth's boss
+
+33
+00:01:45.400 --> 00:01:47.890
+goes to Kenneth's
+office and says,
+
+34
+00:01:47.890 --> 00:01:50.275
+"Hey, are you really
+quitting here?"
+
+35
+00:01:50.275 --> 00:01:52.480
+That's something that this
+
+36
+00:01:52.480 --> 00:01:56.320
+now Kenneth could
+say like, "Hey, no.
+
+37
+00:01:56.320 --> 00:01:59.080
+I'm actually not
+sending those e-mails.
+
+38
+00:01:59.080 --> 00:02:00.790
+Somebody is trying
+to impersonate."
+
+39
+00:02:00.790 --> 00:02:03.140
+So that's something that
+
+40
+00:02:03.140 --> 00:02:04.790
+we're going to talk
+about in the future,
+
+41
+00:02:04.790 --> 00:02:07.414
+how could we use encryption,
+
+42
+00:02:07.414 --> 00:02:08.555
+how could we use
+
+43
+00:02:08.555 --> 00:02:11.120
+our public key infrastructure
+
+44
+00:02:11.120 --> 00:02:13.279
+to generate digital signatures,
+
+45
+00:02:13.279 --> 00:02:16.925
+and how could we understand
+logs in different systems.
+
+46
+00:02:16.925 --> 00:02:18.470
+But at this moment,
+
+47
+00:02:18.470 --> 00:02:19.865
+it's important to understand
+
+48
+00:02:19.865 --> 00:02:22.950
+this concept, the
+Non-Repudiation concept.

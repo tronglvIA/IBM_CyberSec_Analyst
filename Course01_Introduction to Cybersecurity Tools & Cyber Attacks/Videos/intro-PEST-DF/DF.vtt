@@ -1,0 +1,278 @@
+WEBVTT
+
+1
+00:00:05.220 --> 00:00:10.297
+In this video, you will learn to describe
+the practice of digital forensics and
+
+2
+00:00:10.297 --> 00:00:15.910
+what technical skills and legal
+knowledge is required to be effective.
+
+3
+00:00:15.910 --> 00:00:18.930
+>> We move now on to
+the digital forensics area.
+
+4
+00:00:21.420 --> 00:00:24.820
+So digital forensics,
+is a branch of forensic science.
+
+5
+00:00:24.820 --> 00:00:30.410
+It basically includes everything relate to
+identification, recovery, investigation,
+
+6
+00:00:30.410 --> 00:00:34.870
+validation, and presentation of
+facts regarding digital evidence.
+
+7
+00:00:34.870 --> 00:00:40.470
+There's digital evidence, it's usually
+found on computers or similar digital
+
+8
+00:00:40.470 --> 00:00:46.120
+storage media devices, for example,
+hard drives, cell phones, servers.
+
+9
+00:00:47.240 --> 00:00:48.510
+If we talk about forensic science,
+
+10
+00:00:48.510 --> 00:00:50.965
+we need to talk about
+the Locard's exchange principle.
+
+11
+00:00:50.965 --> 00:00:57.440
+Dr. Edmond Locard is a pioneer
+in the forensic science scene.
+
+12
+00:00:57.440 --> 00:01:00.970
+And he became known as
+the Sherlock Holmes of France.
+
+13
+00:01:00.970 --> 00:01:03.210
+He came up with this principle,
+that is true for
+
+14
+00:01:03.210 --> 00:01:09.410
+both the physical world as well as
+the technical world or the computer world.
+
+15
+00:01:09.410 --> 00:01:12.910
+The perpetrator of a crime will bring
+something into the crime scene and
+
+16
+00:01:12.910 --> 00:01:14.820
+leave with something from it.
+
+17
+00:01:14.820 --> 00:01:18.520
+And that both can be used
+as forensics evidence.
+
+18
+00:01:18.520 --> 00:01:23.680
+Basically this means that when
+anybody commits a crime, he will take
+
+19
+00:01:23.680 --> 00:01:30.080
+something from the crime, but he will
+also leave something in the crime scene.
+
+20
+00:01:30.080 --> 00:01:34.200
+And those two facts can be used for
+forensics evidence.
+
+21
+00:01:34.200 --> 00:01:37.570
+In digital forensics,
+we need to talk about chain of custody,
+
+22
+00:01:37.570 --> 00:01:41.030
+just as we will in the forensic science.
+
+23
+00:01:41.030 --> 00:01:44.270
+Basically refers to
+the chronological documentation or
+
+24
+00:01:44.270 --> 00:01:48.350
+paper trail that records the sequence
+of custody, control, transfer,
+
+25
+00:01:48.350 --> 00:01:53.230
+analysis, and disposition of physical or
+electronic evidence.
+
+26
+00:01:53.230 --> 00:01:58.390
+So the chain of custody, basically
+it's a written document that will
+
+27
+00:01:58.390 --> 00:02:03.630
+allow us to reconstruct what have
+been done with the evidence.
+
+28
+00:02:04.750 --> 00:02:08.132
+Who has had it in the past,
+who has copied the information,
+
+29
+00:02:08.132 --> 00:02:12.473
+how it was copied, who has analyzed
+the information, all sorts of things.
+
+30
+00:02:12.473 --> 00:02:17.730
+And chain of custody will be able to
+tell us that or recreate that for us.
+
+31
+00:02:17.730 --> 00:02:22.590
+This chain of custody process have
+been required, it is required for
+
+32
+00:02:22.590 --> 00:02:26.650
+any type of evidence to be
+presented legally in court.
+
+33
+00:02:29.010 --> 00:02:31.704
+In digital forensics,
+we have several tools there.
+
+34
+00:02:31.704 --> 00:02:35.450
+We can divided them into two,
+hardware tools and software tools.
+
+35
+00:02:35.450 --> 00:02:38.770
+In hardware tools,
+we have a few samples of the Faraday cage,
+
+36
+00:02:39.850 --> 00:02:43.690
+it's basically a device that
+can block any electronic.
+
+37
+00:02:45.630 --> 00:02:48.800
+It basically blocks magnetic fields.
+
+38
+00:02:48.800 --> 00:02:51.710
+And it's used to isolate cellphones,
+for example,
+
+39
+00:02:51.710 --> 00:02:54.620
+from the cellular data, wi-fi access.
+
+40
+00:02:54.620 --> 00:03:01.000
+So isolate the cellphone from any,
+impulse or any electronic communication.
+
+41
+00:03:02.650 --> 00:03:07.740
+We also have a specific forensics tools or
+
+42
+00:03:07.740 --> 00:03:12.340
+forensics briefcase that have
+a bunch of tools inside of them.
+
+43
+00:03:12.340 --> 00:03:17.164
+We can discuss them maybe it's
+forensics laptops, power supplies,
+
+44
+00:03:17.164 --> 00:03:21.346
+tool sets, digital cameras,
+case folders, blank forms.
+
+45
+00:03:21.346 --> 00:03:25.799
+Basically these blank forms are what
+would then constitute the chain
+
+46
+00:03:25.799 --> 00:03:30.900
+of custody of any evidence
+collected during the investigation.
+
+47
+00:03:30.900 --> 00:03:35.620
+Also we would need some empty hard drives
+if we need to copy any information.
+
+48
+00:03:35.620 --> 00:03:40.770
+And also the write blockers because we
+want to make sure that we're able to copy
+
+49
+00:03:40.770 --> 00:03:45.730
+anything from the hard drives but we're
+not writing anything into the hard drives.
+
+50
+00:03:47.920 --> 00:03:51.530
+We have several software
+tools out there and
+
+51
+00:03:51.530 --> 00:03:56.790
+these are just some very small list of
+anything that's available out there.
+
+52
+00:03:56.790 --> 00:04:01.540
+We have open sourcing
+applications like Volatility and
+
+53
+00:04:01.540 --> 00:04:06.030
+we also have paid software like FTK and
+EnCase.
+
+54
+00:04:06.030 --> 00:04:08.490
+In the case of dd, it is basically
+
+55
+00:04:08.490 --> 00:04:13.370
+a bit-by-bit copier found in most of
+the Linux operating systems out there.
+
+56
+00:04:15.090 --> 00:04:17.170
+Autopsy, Bulk Extractor, and
+
+57
+00:04:17.170 --> 00:04:22.339
+many more are some of the tools that can
+be used in any forensics investigation.

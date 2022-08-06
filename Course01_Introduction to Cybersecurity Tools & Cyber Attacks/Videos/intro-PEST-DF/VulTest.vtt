@@ -1,0 +1,381 @@
+WEBVTT
+
+1
+00:00:04.340 --> 00:00:07.390
+In this video, you will learn to
+
+2
+00:00:07.390 --> 00:00:11.065
+describe the vulnerability
+assessment methodologies.
+
+3
+00:00:11.065 --> 00:00:16.410
+There is something
+I mentioned before,
+
+4
+00:00:16.410 --> 00:00:21.569
+we normally use in the
+pen testing world or scenarios,
+
+5
+00:00:21.569 --> 00:00:25.060
+but it could be something
+that is separate from
+
+6
+00:00:25.060 --> 00:00:27.160
+the pen testing world and
+
+7
+00:00:27.160 --> 00:00:29.785
+this is vulnerability
+assessment test.
+
+8
+00:00:29.785 --> 00:00:32.140
+So as I mentioned there is tools
+
+9
+00:00:32.140 --> 00:00:34.360
+that will exploit or will try
+
+10
+00:00:34.360 --> 00:00:36.520
+to give us vulnerabilities for
+
+11
+00:00:36.520 --> 00:00:39.145
+each of the systems that
+we are dealing with.
+
+12
+00:00:39.145 --> 00:00:42.070
+So for example when we
+
+13
+00:00:42.070 --> 00:00:45.280
+have a system and we know
+that that system runs on port
+
+14
+00:00:45.280 --> 00:00:51.795
+80 again Apache server on
+the version 2.4 for example,
+
+15
+00:00:51.795 --> 00:00:54.590
+we could start
+understanding each of
+
+16
+00:00:54.590 --> 00:00:57.735
+the exploits doing
+a manual search but,
+
+17
+00:00:57.735 --> 00:01:00.930
+we can use open badge for example
+
+18
+00:01:00.930 --> 00:01:05.210
+to perform a automated
+vulnerability assessment.
+
+19
+00:01:05.210 --> 00:01:08.570
+So the tool will be run on the on
+
+20
+00:01:08.570 --> 00:01:12.050
+the network from
+your client and will
+
+21
+00:01:12.050 --> 00:01:13.640
+give us a lot of information
+
+22
+00:01:13.640 --> 00:01:15.410
+from possible exploits
+that we could
+
+23
+00:01:15.410 --> 00:01:19.160
+use as band testers to
+gain access to the system.
+
+24
+00:01:19.160 --> 00:01:21.200
+Now the important part of
+
+25
+00:01:21.200 --> 00:01:23.795
+the vulnerability assessment
+methodology is
+
+26
+00:01:23.795 --> 00:01:27.510
+the vulnerability assessment
+finish with the report,
+
+27
+00:01:27.510 --> 00:01:31.140
+finish with understanding
+of the vulnerability.
+
+28
+00:01:31.140 --> 00:01:33.450
+The vulnerability
+assessment report will
+
+29
+00:01:33.450 --> 00:01:39.135
+not exploit the vulnerability
+identified on the system.
+
+30
+00:01:39.135 --> 00:01:41.235
+So only will give us the report,
+
+31
+00:01:41.235 --> 00:01:44.915
+only will give us
+the information to exploit
+
+32
+00:01:44.915 --> 00:01:46.730
+that vulnerability but will
+
+33
+00:01:46.730 --> 00:01:49.265
+not exploit the
+vulnerability itself.
+
+34
+00:01:49.265 --> 00:01:51.680
+So that's the next step if we're
+
+35
+00:01:51.680 --> 00:01:54.560
+dealing with a pen testing
+methodology but if we're
+
+36
+00:01:54.560 --> 00:01:56.480
+talking about
+vulnerability assessment
+
+37
+00:01:56.480 --> 00:01:58.640
+we're just dealing
+with information that
+
+38
+00:01:58.640 --> 00:02:03.080
+could harm a system or could
+be used to exploit a system,
+
+39
+00:02:03.080 --> 00:02:05.720
+not necessarily the
+exploitation process
+
+40
+00:02:05.720 --> 00:02:07.850
+or that Bose
+exploitation process.
+
+41
+00:02:07.850 --> 00:02:09.895
+That's something
+important to understand.
+
+42
+00:02:09.895 --> 00:02:13.850
+So here is a weaker
+scenario recommended
+
+43
+00:02:13.850 --> 00:02:17.675
+by some companies or
+followed by song companies.
+
+44
+00:02:17.675 --> 00:02:19.775
+So the vulnerability
+assessment or
+
+45
+00:02:19.775 --> 00:02:22.205
+the vulnerability scanning
+could be done
+
+46
+00:02:22.205 --> 00:02:24.230
+quarterly or bi-monthly or
+
+47
+00:02:24.230 --> 00:02:27.865
+bi-weekly or on
+monthly basis, why?
+
+48
+00:02:27.865 --> 00:02:30.330
+Because normally something
+automated is something
+
+49
+00:02:30.330 --> 00:02:32.850
+that it's already
+configured in a system,
+
+50
+00:02:32.850 --> 00:02:36.305
+it's already configuring
+a tool and will be running
+
+51
+00:02:36.305 --> 00:02:41.345
+automatically on a regular basis
+on the internal network.
+
+52
+00:02:41.345 --> 00:02:42.755
+So when we have
+
+53
+00:02:42.755 --> 00:02:45.560
+all the information regarding
+vulnerability scanners,
+
+54
+00:02:45.560 --> 00:02:49.040
+we could start trying to patch
+
+55
+00:02:49.040 --> 00:02:53.315
+the systems or adding
+security into the systems
+
+56
+00:02:53.315 --> 00:02:54.950
+for the vulnerabilities or
+
+57
+00:02:54.950 --> 00:02:57.140
+the exploits not be
+longer available
+
+58
+00:02:57.140 --> 00:03:01.190
+for attackers to get off
+access on the system.
+
+59
+00:03:01.190 --> 00:03:03.950
+Now to start or to test that
+
+60
+00:03:03.950 --> 00:03:06.860
+we're doing the
+correct patching or
+
+61
+00:03:06.860 --> 00:03:10.190
+the correct
+sanitisation of each of
+
+62
+00:03:10.190 --> 00:03:11.900
+the vulnerabilities that we
+
+63
+00:03:11.900 --> 00:03:14.075
+detect on the
+vulnerability scanning,
+
+64
+00:03:14.075 --> 00:03:17.420
+normally we perform
+a penetration testing process.
+
+65
+00:03:17.420 --> 00:03:21.100
+This could be done
+annually for example,
+
+66
+00:03:21.100 --> 00:03:23.300
+in some occasions one or two
+
+67
+00:03:23.300 --> 00:03:26.270
+times per year it's
+important or is
+
+68
+00:03:26.270 --> 00:03:28.849
+recommended but this case
+
+69
+00:03:28.849 --> 00:03:32.780
+the pen testers will take
+not just the vulnerabilities
+
+70
+00:03:32.780 --> 00:03:34.220
+that you already know that
+
+71
+00:03:34.220 --> 00:03:35.870
+you have but probably will take
+
+72
+00:03:35.870 --> 00:03:39.394
+some additional exploits
+or techniques,
+
+73
+00:03:39.394 --> 00:03:41.960
+for example the social
+engineering techniques,
+
+74
+00:03:41.960 --> 00:03:44.165
+to try to exploit your systems.
+
+75
+00:03:44.165 --> 00:03:47.765
+So this is something that
+will be manually made.
+
+76
+00:03:47.765 --> 00:03:51.895
+I mean there is
+companies that will
+
+77
+00:03:51.895 --> 00:03:59.360
+bring consultants to deploy
+or to execute pen testing.
+
+78
+00:03:59.360 --> 00:04:03.410
+In the vulnerability
+assessment scenario,
+
+79
+00:04:03.410 --> 00:04:06.320
+there is not necessarily
+a consultant but could be
+
+80
+00:04:06.320 --> 00:04:09.020
+a system generated information
+
+81
+00:04:09.020 --> 00:04:11.760
+on the vulnerable list
+that you have.

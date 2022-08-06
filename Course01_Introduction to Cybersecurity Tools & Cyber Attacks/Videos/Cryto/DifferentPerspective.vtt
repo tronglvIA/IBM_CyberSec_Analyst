@@ -1,0 +1,1100 @@
+WEBVTT
+
+1
+00:00:04.310 --> 00:00:08.670
+In this video, you
+will learn to describe
+
+2
+00:00:08.670 --> 00:00:13.184
+important cryptography
+terms such as plain text,
+
+3
+00:00:13.184 --> 00:00:16.260
+cipher text, symmetric key,
+
+4
+00:00:16.260 --> 00:00:20.115
+public key, substitution cipher,
+
+5
+00:00:20.115 --> 00:00:23.140
+Data Encryption Standard.
+
+6
+00:00:24.530 --> 00:00:29.150
+So before starting,
+one of the things we
+
+7
+00:00:29.150 --> 00:00:30.770
+should do is set our lexicon
+
+8
+00:00:30.770 --> 00:00:32.780
+or dictionary about cryptography.
+
+9
+00:00:32.780 --> 00:00:35.720
+So there's a couple of
+key points to be made here.
+
+10
+00:00:35.720 --> 00:00:37.220
+Looking at this diagram,
+
+11
+00:00:37.220 --> 00:00:39.740
+we see Alice communicating
+to Bob again.
+
+12
+00:00:39.740 --> 00:00:45.500
+Alice and Bob are the sender
+and receiver respectively.
+
+13
+00:00:45.500 --> 00:00:50.009
+Alice has a plain text message
+
+14
+00:00:50.050 --> 00:00:53.085
+that she wishes to send to Bob.
+
+15
+00:00:53.085 --> 00:00:56.955
+So the plain text message
+is human readable.
+
+16
+00:00:56.955 --> 00:00:59.280
+This is a clear text.
+
+17
+00:00:59.280 --> 00:01:01.695
+It can be an email,
+
+18
+00:01:01.695 --> 00:01:04.530
+a Microsoft Word document,
+
+19
+00:01:04.530 --> 00:01:07.230
+a web-page link, anything
+
+20
+00:01:07.230 --> 00:01:10.740
+that Alice may wish
+to send to Bob.
+
+21
+00:01:10.740 --> 00:01:13.510
+Like I said, it can
+be clear text and in
+
+22
+00:01:13.510 --> 00:01:16.760
+this simple form,
+readable by any.
+
+23
+00:01:16.760 --> 00:01:19.870
+So then there's
+Alice runs through
+
+24
+00:01:19.870 --> 00:01:24.340
+an encryption algorithm to
+create the cipher-text.
+
+25
+00:01:24.340 --> 00:01:28.570
+So the cipher-text is
+the encrypted message.
+
+26
+00:01:28.570 --> 00:01:31.255
+We talk about a message but
+could be a Word document.
+
+27
+00:01:31.255 --> 00:01:35.230
+Once again, any number
+of types of content.
+
+28
+00:01:35.230 --> 00:01:39.655
+You'll notice that Alice
+has an encryption key.
+
+29
+00:01:39.655 --> 00:01:42.595
+So this encryption key
+
+30
+00:01:42.595 --> 00:01:46.750
+is designated by the letter
+K and you will notice
+
+31
+00:01:46.750 --> 00:01:50.095
+there's a small subscript
+right here that
+
+32
+00:01:50.095 --> 00:01:54.075
+indicates that is Alice's key.
+
+33
+00:01:54.075 --> 00:01:57.785
+So K_A is Alice's key.
+
+34
+00:01:57.785 --> 00:02:01.550
+Once again, this creates
+the cipher-texts which is put on
+
+35
+00:02:01.550 --> 00:02:03.740
+the communication
+channel and sent
+
+36
+00:02:03.740 --> 00:02:07.145
+to Bob who's the recipient.
+
+37
+00:02:07.145 --> 00:02:12.805
+Bob decrypts the cipher-text
+
+38
+00:02:12.805 --> 00:02:15.410
+to recover the plain
+text using his
+
+39
+00:02:15.410 --> 00:02:18.620
+key which is
+designated by K is for
+
+40
+00:02:18.620 --> 00:02:23.975
+key lowercase b
+subscript b for Bob.
+
+41
+00:02:23.975 --> 00:02:28.265
+So K_A Alice's key,
+K_B Bob's key.
+
+42
+00:02:28.265 --> 00:02:31.490
+Truly, in the center here is
+
+43
+00:02:31.490 --> 00:02:35.345
+the interceptor,
+the eavesdropper.
+
+44
+00:02:35.345 --> 00:02:39.260
+Now well there's
+a basic architectural difference
+
+45
+00:02:39.260 --> 00:02:43.865
+between two types of
+cryptography architecture.
+
+46
+00:02:43.865 --> 00:02:46.730
+One is a symmetric key.
+
+47
+00:02:46.730 --> 00:02:49.180
+This is where the receiver key,
+
+48
+00:02:49.180 --> 00:02:52.340
+Bob's key and Alice's keys
+are identical.
+
+49
+00:02:52.340 --> 00:02:55.595
+So in this case, K_A equals K_B.
+
+50
+00:02:55.595 --> 00:03:01.730
+Public-key cryptography
+uses a difference of a key.
+
+51
+00:03:01.730 --> 00:03:05.345
+There is a secret key that
+
+52
+00:03:05.345 --> 00:03:10.625
+Bob has so K_A does
+not equal K_B.
+
+53
+00:03:10.625 --> 00:03:13.820
+So let's move on and
+let's take a look at
+
+54
+00:03:13.820 --> 00:03:17.625
+some principles of
+symmetric cryptography.
+
+55
+00:03:17.625 --> 00:03:19.865
+Let's take some time and
+
+56
+00:03:19.865 --> 00:03:21.965
+investigate the principles
+
+57
+00:03:21.965 --> 00:03:24.560
+behind symmetric
+key cryptography.
+
+58
+00:03:24.560 --> 00:03:26.870
+There is a couple
+of architectures,
+
+59
+00:03:26.870 --> 00:03:28.865
+a couple of styles of
+
+60
+00:03:28.865 --> 00:03:31.715
+symmetric key cryptography
+that we will look at.
+
+61
+00:03:31.715 --> 00:03:36.770
+So one of the first ones is
+the substitution cipher.
+
+62
+00:03:36.770 --> 00:03:40.370
+So this is the equivalent of
+
+63
+00:03:40.370 --> 00:03:44.425
+a magic decoder warning
+
+64
+00:03:44.425 --> 00:03:49.145
+that we have a simple
+substitution of one letter.
+
+65
+00:03:49.145 --> 00:03:51.530
+It's a mono alphabetic cipher
+
+66
+00:03:51.530 --> 00:03:53.450
+which means that we substitute
+
+67
+00:03:53.450 --> 00:03:55.070
+one letter to another and that
+
+68
+00:03:55.070 --> 00:03:58.520
+substitution does not change
+for the entire message.
+
+69
+00:03:58.520 --> 00:03:59.990
+We'll take a look here at
+
+70
+00:03:59.990 --> 00:04:02.660
+a plain text or are we
+just simply run a through
+
+71
+00:04:02.660 --> 00:04:08.635
+z and the cipher-text
+is m through cube.
+
+72
+00:04:08.635 --> 00:04:12.680
+So m is the 13th letter
+of the alphabet.
+
+73
+00:04:12.680 --> 00:04:16.670
+So this is k equals 13,
+
+74
+00:04:16.670 --> 00:04:25.170
+meaning that we'll shift
+the cipher-text 13 characters to
+
+75
+00:04:25.170 --> 00:04:27.590
+the right in
+
+76
+00:04:27.590 --> 00:04:30.815
+the mono alphabetic
+presentation of a through
+
+77
+00:04:30.815 --> 00:04:34.040
+z and our plain text
+as in the example
+
+78
+00:04:34.040 --> 00:04:37.790
+from Alice to Bob says,
+
+79
+00:04:37.790 --> 00:04:41.060
+"Bob, I love you Alice,"
+and the cipher-text
+
+80
+00:04:41.060 --> 00:04:42.830
+as you can see is nkn
+
+81
+00:04:42.830 --> 00:04:44.825
+and you can certainly
+read the rest.
+
+82
+00:04:44.825 --> 00:04:49.010
+So one of the questions before us
+
+83
+00:04:49.010 --> 00:04:53.330
+is how difficult is it to
+break this simple cipher.
+
+84
+00:04:53.330 --> 00:04:55.400
+Well, the answer is it's
+
+85
+00:04:55.400 --> 00:04:57.320
+not very hard at
+all because there's
+
+86
+00:04:57.320 --> 00:05:00.350
+a very uneven distribution of
+
+87
+00:05:00.350 --> 00:05:03.830
+the use of letters in
+the English language.
+
+88
+00:05:03.830 --> 00:05:05.390
+So we know for example,
+
+89
+00:05:05.390 --> 00:05:08.515
+that the letter e
+occurs most frequently.
+
+90
+00:05:08.515 --> 00:05:12.575
+So a simple histogram
+of the occurrence
+
+91
+00:05:12.575 --> 00:05:19.640
+of letters in the cipher
+text will reveal what e is.
+
+92
+00:05:19.640 --> 00:05:26.030
+In this case, e will be c. So
+
+93
+00:05:26.030 --> 00:05:31.200
+this frequency histogram will
+
+94
+00:05:31.200 --> 00:05:33.355
+quickly yield the cipher-text.
+
+95
+00:05:33.355 --> 00:05:39.635
+So in fact, this is not
+a very secure method to use it.
+
+96
+00:05:39.635 --> 00:05:42.725
+Now from a graphic at what
+
+97
+00:05:42.725 --> 00:05:46.580
+a symmetric key cryptography
+architecture looks like.
+
+98
+00:05:46.580 --> 00:05:48.740
+So once again, Alice,
+
+99
+00:05:48.740 --> 00:05:52.970
+who is sending
+a plain text message
+
+100
+00:05:52.970 --> 00:05:56.615
+and we will designate
+the message as M,
+
+101
+00:05:56.615 --> 00:06:01.490
+encrypts the plain text with
+
+102
+00:06:01.490 --> 00:06:06.575
+the key especially designed
+between Alice and Bob.
+
+103
+00:06:06.575 --> 00:06:10.330
+That's what the subscripts
+of A-B indicates.
+
+104
+00:06:10.330 --> 00:06:12.680
+Lets go through the
+encryption algorithm
+
+105
+00:06:12.680 --> 00:06:14.720
+to create the cipher-text.
+
+106
+00:06:14.720 --> 00:06:16.520
+Now look the
+designation right here.
+
+107
+00:06:16.520 --> 00:06:21.770
+So we have the cipher-text
+is identified as the key,
+
+108
+00:06:21.770 --> 00:06:25.625
+Alice to Bob,
+parenthetically message.
+
+109
+00:06:25.625 --> 00:06:28.580
+So this is the
+distribution that we
+
+110
+00:06:28.580 --> 00:06:31.895
+saw earlier with
+a one-letter shift.
+
+111
+00:06:31.895 --> 00:06:38.060
+For example, Bob here
+receives the cipher-text,
+
+112
+00:06:38.060 --> 00:06:40.520
+applies the decryption key
+
+113
+00:06:40.520 --> 00:06:42.620
+which is identical to
+the encryption key.
+
+114
+00:06:42.620 --> 00:06:45.905
+So this is K_A-B and
+recovers the plain texts.
+
+115
+00:06:45.905 --> 00:06:51.889
+So mathematically, the message
+here is found by applying
+
+116
+00:06:51.889 --> 00:06:54.860
+the decryption key to
+
+117
+00:06:54.860 --> 00:06:57.590
+the encrypted message or
+
+118
+00:06:57.590 --> 00:07:02.270
+the cipher-text that Bob
+has received from Alice.
+
+119
+00:07:02.270 --> 00:07:04.580
+So this element right here.
+
+120
+00:07:04.580 --> 00:07:05.945
+This is the message.
+
+121
+00:07:05.945 --> 00:07:09.995
+This is the decryption
+key and that will
+
+122
+00:07:09.995 --> 00:07:12.275
+result in the extraction
+
+123
+00:07:12.275 --> 00:07:15.580
+or recovery of
+the plain text message.
+
+124
+00:07:15.580 --> 00:07:20.210
+So Bob and Alice,
+
+125
+00:07:20.210 --> 00:07:21.420
+for this to work,
+
+126
+00:07:21.420 --> 00:07:26.450
+we have to share
+the distribution key K_A-B.
+
+127
+00:07:26.450 --> 00:07:28.680
+Now the question is,
+
+128
+00:07:28.680 --> 00:07:32.115
+how does Bob and Alice
+agree on the key value?
+
+129
+00:07:32.115 --> 00:07:35.485
+That is actually the weakness
+
+130
+00:07:35.485 --> 00:07:38.790
+for symmetric key cryptography.
+
+131
+00:07:38.790 --> 00:07:42.780
+The actual encryption
+on that and we'll
+
+132
+00:07:42.780 --> 00:07:44.580
+take a look at some other methods
+
+133
+00:07:44.580 --> 00:07:47.235
+that are just not
+Manuel alphabetic.
+
+134
+00:07:47.235 --> 00:07:49.980
+Well, no strong or no worse
+
+135
+00:07:49.980 --> 00:07:54.945
+than asymmetric or
+public-key cryptography.
+
+136
+00:07:54.945 --> 00:07:56.295
+But the issue is,
+
+137
+00:07:56.295 --> 00:07:58.965
+this is about key distribution,
+
+138
+00:07:58.965 --> 00:08:04.415
+how does Bob get
+the key from Alice?
+
+139
+00:08:04.415 --> 00:08:07.740
+So she could e-mail it,
+
+140
+00:08:07.740 --> 00:08:11.340
+but could truly
+intercept that key and
+
+141
+00:08:11.340 --> 00:08:15.000
+then use that for
+decryption of that message,
+
+142
+00:08:15.000 --> 00:08:16.755
+and the answer was obviously yes.
+
+143
+00:08:16.755 --> 00:08:20.145
+So the problem, and we'll talk
+about this in more detail,
+
+144
+00:08:20.145 --> 00:08:22.500
+for the foundational problem for
+
+145
+00:08:22.500 --> 00:08:24.780
+symmetric key cryptography is
+
+146
+00:08:24.780 --> 00:08:27.360
+actually in key distribution.
+
+147
+00:08:27.360 --> 00:08:29.310
+So let's take a look there are
+
+148
+00:08:29.310 --> 00:08:33.170
+another symmetric key method.
+
+149
+00:08:33.170 --> 00:08:35.190
+We'll take a look at some of
+
+150
+00:08:35.190 --> 00:08:38.495
+the technology behind
+[inaudible] by six.
+
+151
+00:08:38.495 --> 00:08:41.420
+Let's talk about DES.
+
+152
+00:08:41.420 --> 00:08:47.680
+So this is a IBM historical
+cryptography approach.
+
+153
+00:08:47.680 --> 00:08:51.310
+So this was actually built to
+
+154
+00:08:51.310 --> 00:08:55.820
+a standard, that NIST published.
+
+155
+00:08:55.820 --> 00:09:01.140
+It's a 56-bit symmetric key.
+
+156
+00:09:01.140 --> 00:09:03.015
+So that means that the key from
+
+157
+00:09:03.015 --> 00:09:06.705
+Alice to Bob is 56-bits long.
+
+158
+00:09:06.705 --> 00:09:11.335
+When you see a 64-bit
+plaintext input,
+
+159
+00:09:11.335 --> 00:09:14.225
+that just simply means
+that the algorithm,
+
+160
+00:09:14.225 --> 00:09:16.755
+the DES encryption algorithm,
+
+161
+00:09:16.755 --> 00:09:23.885
+ingests digests text
+in 64 bit chunks.
+
+162
+00:09:23.885 --> 00:09:29.250
+So if you had a 640-bit
+plaintext message,
+
+163
+00:09:29.250 --> 00:09:32.255
+you'd have 10, 64-bit
+
+164
+00:09:32.255 --> 00:09:34.925
+groups that are going
+to be encrypted.
+
+165
+00:09:34.925 --> 00:09:37.345
+So one of the questions,
+
+166
+00:09:37.345 --> 00:09:40.525
+of course, is how secure is DES,
+
+167
+00:09:40.525 --> 00:09:42.125
+the data encryption standard?
+
+168
+00:09:42.125 --> 00:09:48.495
+Well, 56-bit keys,
+
+169
+00:09:48.495 --> 00:09:53.040
+it like I said is
+the encrypted key life.
+
+170
+00:09:53.150 --> 00:09:57.070
+It is a brute force
+approach which
+
+171
+00:09:57.070 --> 00:10:00.660
+was undertaken about
+several years ago,
+
+172
+00:10:00.660 --> 00:10:03.370
+and said this could be
+broken in about four-months.
+
+173
+00:10:03.370 --> 00:10:04.890
+So how to defeat defeat that?
+
+174
+00:10:04.890 --> 00:10:07.260
+Well, change the key
+every three months,
+
+175
+00:10:07.260 --> 00:10:09.305
+and then they have to
+simply start it over.
+
+176
+00:10:09.305 --> 00:10:11.640
+So there's no known back door.
+
+177
+00:10:11.640 --> 00:10:14.410
+This has been gone through
+
+178
+00:10:14.410 --> 00:10:15.850
+peer review within
+
+179
+00:10:15.850 --> 00:10:18.390
+the cryptography community
+and those people
+
+180
+00:10:18.390 --> 00:10:23.090
+will report on
+the slightest vulnerability
+
+181
+00:10:23.090 --> 00:10:25.290
+in an encryption standards.
+
+182
+00:10:25.290 --> 00:10:26.670
+So this has never been published,
+
+183
+00:10:26.670 --> 00:10:30.480
+so we have a sense that there's
+some strength right here.
+
+184
+00:10:30.480 --> 00:10:32.980
+So we'll take a look at how
+
+185
+00:10:32.980 --> 00:10:35.330
+to make this a
+little more secure,
+
+186
+00:10:35.330 --> 00:10:37.324
+we could simply use
+
+187
+00:10:37.324 --> 00:10:42.140
+three keys on each of
+these data blocks,
+
+188
+00:10:42.140 --> 00:10:46.995
+that's the 64-kbit that
+we see coming through.
+
+189
+00:10:46.995 --> 00:10:50.500
+There's an architecture
+called cipher-block chaining.
+
+190
+00:10:50.500 --> 00:10:54.255
+Let's take a look at
+that briefly on the next slide.
+
+191
+00:10:54.255 --> 00:11:00.405
+Here on Slide 7, is an
+architectural element for DES.
+
+192
+00:11:00.405 --> 00:11:04.650
+So there's actually you
+
+193
+00:11:04.650 --> 00:11:06.095
+can take a look at just do
+
+194
+00:11:06.095 --> 00:11:08.045
+a little finger walk right here,
+
+195
+00:11:08.045 --> 00:11:12.520
+that you can see that there's
+a left and a right part of
+
+196
+00:11:12.520 --> 00:11:17.950
+the 64-bit and
+those are reversed.
+
+197
+00:11:18.240 --> 00:11:22.975
+Then we apply 48 bits out
+
+198
+00:11:22.975 --> 00:11:26.940
+of the 56 bits
+against this element,
+
+199
+00:11:26.940 --> 00:11:28.870
+and there are swapped left and
+
+200
+00:11:28.870 --> 00:11:31.710
+right and there's
+a permutation elements.
+
+201
+00:11:31.710 --> 00:11:39.105
+The point being is that
+there are 16 rounds of
+
+202
+00:11:39.105 --> 00:11:42.645
+this segmentation and encryption
+
+203
+00:11:42.645 --> 00:11:48.375
+per encryptions cycle
+on each of the 64 bits.
+
+204
+00:11:48.375 --> 00:11:53.280
+So once I said earlier
+we had a 640-bit input,
+
+205
+00:11:53.280 --> 00:11:55.700
+this would happen 10
+times and we would
+
+206
+00:11:55.700 --> 00:11:57.690
+concatenate those tendons send
+
+207
+00:11:57.690 --> 00:12:00.275
+that as the encrypted message.
+
+208
+00:12:00.275 --> 00:12:06.540
+Following DES in
+November of 2001,
+
+209
+00:12:06.540 --> 00:12:10.035
+NIST published a new standard.
+
+210
+00:12:10.035 --> 00:12:13.025
+So what we did was is that NIST
+
+211
+00:12:13.025 --> 00:12:17.380
+moved the ingest block
+by a factor of two.
+
+212
+00:12:17.380 --> 00:12:22.240
+So went from 64 bits to 128 bits.
+
+213
+00:12:22.320 --> 00:12:25.650
+The key length move from
+
+214
+00:12:25.650 --> 00:12:30.790
+56 bits to these larger numbers
+that we've seen here 128,
+
+215
+00:12:30.790 --> 00:12:34.355
+192, or 256 bits.
+
+216
+00:12:34.355 --> 00:12:36.380
+Why are there three?
+
+217
+00:12:36.380 --> 00:12:42.495
+Well, this is a user
+selected key length.
+
+218
+00:12:42.495 --> 00:12:44.730
+Now keep in mind
+the longer the key,
+
+219
+00:12:44.730 --> 00:12:48.395
+the more computationally
+intensive the algorithm will be.
+
+220
+00:12:48.395 --> 00:12:52.500
+So that if we got
+information that is
+
+221
+00:12:52.500 --> 00:12:56.854
+at one level of sensitivity
+and information,
+
+222
+00:12:56.854 --> 00:12:58.870
+it's at a higher level
+of sensitivity.
+
+223
+00:12:58.870 --> 00:13:02.230
+There's an argument for
+using the longer bits,
+
+224
+00:13:02.230 --> 00:13:04.680
+the a 128-bit verses
+
+225
+00:13:04.680 --> 00:13:08.825
+the 64-bit makes for
+a more efficient algorithm.
+
+226
+00:13:08.825 --> 00:13:11.915
+So if you remember on
+the previous slide,
+
+227
+00:13:11.915 --> 00:13:15.015
+we mentioned that we had
+
+228
+00:13:15.015 --> 00:13:17.115
+a brute force approach
+
+229
+00:13:17.115 --> 00:13:20.880
+that with the high-end
+computers that are
+
+230
+00:13:20.880 --> 00:13:24.250
+available today we
+would take just a
+
+231
+00:13:24.250 --> 00:13:30.420
+second to find the DES key
+as you can see,
+
+232
+00:13:30.420 --> 00:13:34.850
+moves to a 149 trillion
+years for AES.
+
+233
+00:13:34.850 --> 00:13:36.449
+So you've seen the attraction
+
+234
+00:13:36.449 --> 00:13:38.865
+that brute force is essentially
+
+235
+00:13:38.865 --> 00:13:41.030
+off the table when it comes
+
+236
+00:13:41.030 --> 00:13:43.260
+to the advanced
+encryption standard.
+
+237
+00:13:43.260 --> 00:13:45.030
+So the salient point for
+
+238
+00:13:45.030 --> 00:13:47.400
+this training module
+is to know that
+
+239
+00:13:47.400 --> 00:13:50.135
+the first commercially available,
+
+240
+00:13:50.135 --> 00:13:53.685
+electronic encryption
+algorithms, DES,
+
+241
+00:13:53.685 --> 00:13:56.025
+and then the second
+follow one was
+
+242
+00:13:56.025 --> 00:14:00.880
+AES which effectively
+removed brute force.

@@ -1,0 +1,451 @@
+WEBVTT
+
+1
+00:00:04.370 --> 00:00:07.050
+In this video, you will learn
+
+2
+00:00:07.050 --> 00:00:10.530
+to describe the purpose
+of frameworks,
+
+3
+00:00:10.530 --> 00:00:12.960
+baselines, and best practices in
+
+4
+00:00:12.960 --> 00:00:16.410
+an effective
+cybersecurity strategy.
+
+5
+00:00:16.410 --> 00:00:19.245
+The last part of the session is
+
+6
+00:00:19.245 --> 00:00:22.950
+frameworks and their purposes.
+
+7
+00:00:22.950 --> 00:00:25.590
+We're going to talk
+about frameworks,
+
+8
+00:00:25.590 --> 00:00:29.295
+we're going to talk
+about best practices.
+
+9
+00:00:29.295 --> 00:00:33.315
+Here are just a good
+differentiation
+
+10
+00:00:33.315 --> 00:00:35.055
+between best practices,
+
+11
+00:00:35.055 --> 00:00:38.325
+baseline, frameworks,
+normative, and compliance.
+
+12
+00:00:38.325 --> 00:00:40.935
+So in the organization,
+
+13
+00:00:40.935 --> 00:00:43.485
+we will have a lot of things,
+
+14
+00:00:43.485 --> 00:00:46.080
+we will have, for
+example, best practices,
+
+15
+00:00:46.080 --> 00:00:49.400
+we will have a baseline or
+we will have framework.
+
+16
+00:00:49.400 --> 00:00:52.015
+A good example of
+framework is COBIT
+
+17
+00:00:52.015 --> 00:00:55.980
+or a good example
+of best practices,
+
+18
+00:00:55.980 --> 00:00:57.960
+in some cases,
+framework depends of
+
+19
+00:00:57.960 --> 00:01:02.985
+your business is I-T-I-L, ITIL.
+
+20
+00:01:02.985 --> 00:01:05.910
+So those are good things,
+
+21
+00:01:05.910 --> 00:01:08.745
+good controls that will improve,
+
+22
+00:01:08.745 --> 00:01:11.520
+enhance your IT governance,
+
+23
+00:01:11.520 --> 00:01:16.770
+your IT processes, your IT
+policies, your IT procedures.
+
+24
+00:01:16.770 --> 00:01:19.530
+Those frameworks,
+those baselines,
+
+25
+00:01:19.530 --> 00:01:22.195
+those best practices will
+
+26
+00:01:22.195 --> 00:01:24.560
+improve the performance
+of your servers.
+
+27
+00:01:24.560 --> 00:01:26.510
+For example, if you go and
+
+28
+00:01:26.510 --> 00:01:29.000
+grab the best practices
+for Microsoft
+
+29
+00:01:29.000 --> 00:01:31.535
+regarding the hardening of
+
+30
+00:01:31.535 --> 00:01:34.280
+their database server
+for example,
+
+31
+00:01:34.280 --> 00:01:37.130
+you will have a best
+Microsoft SQL Server,
+
+32
+00:01:37.130 --> 00:01:39.560
+you will have an improved
+Microsoft SQL Server.
+
+33
+00:01:39.560 --> 00:01:42.170
+But that best practice,
+
+34
+00:01:42.170 --> 00:01:43.850
+that framework it's not
+
+35
+00:01:43.850 --> 00:01:46.230
+something that you
+will have to have,
+
+36
+00:01:46.230 --> 00:01:47.625
+it's nice to have.
+
+37
+00:01:47.625 --> 00:01:50.400
+You will have a lot
+of good practices,
+
+38
+00:01:50.400 --> 00:01:51.900
+you will have a lot of controls,
+
+39
+00:01:51.900 --> 00:01:53.700
+you will have a lot
+of good things,
+
+40
+00:01:53.700 --> 00:01:57.200
+but if you don't
+have it, that's it.
+
+41
+00:01:57.200 --> 00:01:59.099
+That's something that will
+
+42
+00:01:59.099 --> 00:02:01.955
+not necessarily
+harm your business.
+
+43
+00:02:01.955 --> 00:02:03.920
+If you don't have guidelines from
+
+44
+00:02:03.920 --> 00:02:05.800
+Microsoft to implement
+the servers,
+
+45
+00:02:05.800 --> 00:02:07.670
+if you don't have the guidelines
+
+46
+00:02:07.670 --> 00:02:11.540
+from Cisco to implement
+the physical devices,
+
+47
+00:02:11.540 --> 00:02:14.870
+if you don't have
+the best practices from
+
+48
+00:02:14.870 --> 00:02:19.894
+COBIT to improve your IP
+governance in your company,
+
+49
+00:02:19.894 --> 00:02:22.535
+you will loose your business,
+
+50
+00:02:22.535 --> 00:02:25.715
+you will be part of
+many kind of problem
+
+51
+00:02:25.715 --> 00:02:29.255
+with your regulator,
+with your government.
+
+52
+00:02:29.255 --> 00:02:30.600
+In the other corner,
+
+53
+00:02:30.600 --> 00:02:33.360
+we have normative and compliance.
+
+54
+00:02:33.360 --> 00:02:37.920
+The difference here is you
+need to implement normative,
+
+55
+00:02:37.920 --> 00:02:39.140
+you need to have
+
+56
+00:02:39.140 --> 00:02:42.485
+compliance if your business
+required that.
+
+57
+00:02:42.485 --> 00:02:46.065
+So for example, there is
+something called HIPAA.
+
+58
+00:02:46.065 --> 00:02:49.760
+HIPAA is normative
+that will be part
+
+59
+00:02:49.760 --> 00:02:54.050
+of any kind of health care
+company in United States.
+
+60
+00:02:54.050 --> 00:02:57.350
+So in your health care company,
+
+61
+00:02:57.350 --> 00:02:58.580
+you could have COBIT,
+
+62
+00:02:58.580 --> 00:03:01.310
+you could have a lot
+of ITIL processes,
+
+63
+00:03:01.310 --> 00:03:03.710
+you could have
+all the best practices from
+
+64
+00:03:03.710 --> 00:03:06.965
+your burn vendors
+implemented in your systems,
+
+65
+00:03:06.965 --> 00:03:11.735
+but if you don't
+comply with HIPAA,
+
+66
+00:03:11.735 --> 00:03:13.220
+if you missed two points,
+
+67
+00:03:13.220 --> 00:03:15.235
+if you missed
+two processes in HIPAA,
+
+68
+00:03:15.235 --> 00:03:18.300
+probably you won't
+operate in United States.
+
+69
+00:03:18.300 --> 00:03:20.330
+You will have penalties from
+
+70
+00:03:20.330 --> 00:03:22.370
+the US government because you are
+
+71
+00:03:22.370 --> 00:03:25.220
+not complying with HIPAA.
+
+72
+00:03:25.220 --> 00:03:28.865
+So that's the main difference
+between baselines,
+
+73
+00:03:28.865 --> 00:03:30.550
+frameworks, and best practices,
+
+74
+00:03:30.550 --> 00:03:32.655
+and normative, and compliance.
+
+75
+00:03:32.655 --> 00:03:34.140
+So as we mentioned,
+
+76
+00:03:34.140 --> 00:03:35.760
+we have a lot of things, we have,
+
+77
+00:03:35.760 --> 00:03:39.030
+for example, as
+best practices, as frameworks,
+
+78
+00:03:39.030 --> 00:03:41.040
+methodologies that we could
+
+79
+00:03:41.040 --> 00:03:43.400
+implement in our business
+to improve the way
+
+80
+00:03:43.400 --> 00:03:45.215
+that our business fills
+
+81
+00:03:45.215 --> 00:03:48.005
+with technology and
+we could mention,
+
+82
+00:03:48.005 --> 00:03:50.045
+actually, we already
+mentioned a couple of those.
+
+83
+00:03:50.045 --> 00:03:51.590
+We could mention COBIT,
+
+84
+00:03:51.590 --> 00:03:54.510
+we can mention ITIL, ISOs.
+
+85
+00:03:54.510 --> 00:03:56.485
+Cyber Security we have
+
+86
+00:03:56.485 --> 00:04:02.595
+the ISOs 27,000
+series, we have COSO,
+
+87
+00:04:02.595 --> 00:04:04.170
+we have the PMI,
+
+88
+00:04:04.170 --> 00:04:06.180
+the Project Management
+Institute with
+
+89
+00:04:06.180 --> 00:04:08.730
+a lot of project
+management methodologies,
+
+90
+00:04:08.730 --> 00:04:11.190
+we have the developer
+recommendations.
+
+91
+00:04:11.190 --> 00:04:12.360
+As soon as you start working
+
+92
+00:04:12.360 --> 00:04:16.320
+with a programming languages,
+
+93
+00:04:16.320 --> 00:04:18.730
+which you will have a lot
+of recommendations,
+
+94
+00:04:18.730 --> 00:04:20.690
+you will have a lot
+of information
+
+95
+00:04:20.690 --> 00:04:23.480
+regarding the best practices
+that you could follow on
+
+96
+00:04:23.480 --> 00:04:26.225
+your software in your systems
+
+97
+00:04:26.225 --> 00:04:29.540
+to avoid any kind of
+security incidents,
+
+98
+00:04:29.540 --> 00:04:32.330
+any kind of incident
+that will harm
+
+99
+00:04:32.330 --> 00:04:36.360
+or will destroy your software.

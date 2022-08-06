@@ -1,0 +1,257 @@
+WEBVTT
+
+1
+00:00:04.250 --> 00:00:06.840
+In this video, you will learn
+
+2
+00:00:06.840 --> 00:00:11.250
+to describe the OWASP
+Top 10 tests,
+
+3
+00:00:11.250 --> 00:00:13.320
+when and why they are used,
+
+4
+00:00:13.320 --> 00:00:16.725
+and where to get help from
+outside organizations.
+
+5
+00:00:16.725 --> 00:00:19.980
+Another methodology,
+another best practice
+
+6
+00:00:19.980 --> 00:00:22.980
+that most of the web
+applications need to follow,
+
+7
+00:00:22.980 --> 00:00:25.170
+here is the OWASP Top 10 process.
+
+8
+00:00:25.170 --> 00:00:28.110
+So if you're dealing
+with a webpage,
+
+9
+00:00:28.110 --> 00:00:29.700
+if you're dealing
+with web application,
+
+10
+00:00:29.700 --> 00:00:31.110
+if you are dealing with
+
+11
+00:00:31.110 --> 00:00:33.360
+actually not necessarily
+a web application,
+
+12
+00:00:33.360 --> 00:00:35.600
+but if you are dealing
+with applications at all,
+
+13
+00:00:35.600 --> 00:00:38.060
+you could use the OWASP Top 10,
+
+14
+00:00:38.060 --> 00:00:42.050
+and it start performing test
+of each of the sections that
+
+15
+00:00:42.050 --> 00:00:46.490
+the organization will
+have on their website.
+
+16
+00:00:46.490 --> 00:00:50.190
+So basically OWASP, we will see
+
+17
+00:00:50.190 --> 00:00:53.835
+here a lot of
+information on OWASP.
+
+18
+00:00:53.835 --> 00:01:00.510
+If you go to Google and put
+OWASP on the search bar,
+
+19
+00:01:00.510 --> 00:01:04.725
+you will go to the
+owasp.org link,
+
+20
+00:01:04.725 --> 00:01:07.100
+and you will get a lot
+of information regarding
+
+21
+00:01:07.100 --> 00:01:09.620
+these organization
+that will help you
+
+22
+00:01:09.620 --> 00:01:12.100
+when you are trying
+to perform a test
+
+23
+00:01:12.100 --> 00:01:15.595
+into your web application.
+
+24
+00:01:15.595 --> 00:01:18.650
+Actually, there is also a lot of
+
+25
+00:01:18.650 --> 00:01:21.960
+information for
+mobile applications too.
+
+26
+00:01:21.960 --> 00:01:26.505
+So for example, if
+you go to download,
+
+27
+00:01:26.505 --> 00:01:28.550
+you will see a lot
+of categories here.
+
+28
+00:01:28.550 --> 00:01:30.485
+So for example, let's go to
+
+29
+00:01:30.485 --> 00:01:34.300
+the OWASP Top 10 project here.
+
+30
+00:01:34.300 --> 00:01:38.145
+You will see that the top 10
+
+31
+00:01:38.145 --> 00:01:41.510
+for 2017, it's now available.
+
+32
+00:01:41.510 --> 00:01:44.435
+So here you will load the report
+
+33
+00:01:44.435 --> 00:01:47.570
+with all the different
+information for
+
+34
+00:01:47.570 --> 00:01:51.485
+the top 10 vulnerability
+for the web applications
+
+35
+00:01:51.485 --> 00:01:57.195
+on the last 2-3 years since 2017.
+
+36
+00:01:57.195 --> 00:02:00.270
+So for example, we have as
+the Number 1 injection.
+
+37
+00:02:00.270 --> 00:02:02.550
+So if we go to page Number 7,
+
+38
+00:02:02.550 --> 00:02:06.510
+here is an example of
+what is injection?
+
+39
+00:02:06.510 --> 00:02:09.260
+What is the process to
+get information for
+
+40
+00:02:09.260 --> 00:02:12.200
+the system using
+SQL injection for example?
+
+41
+00:02:12.200 --> 00:02:14.300
+What are the attackers scenarios?
+
+42
+00:02:14.300 --> 00:02:16.160
+What is that you need to
+
+43
+00:02:16.160 --> 00:02:18.050
+perform in the system in order to
+
+44
+00:02:18.050 --> 00:02:20.060
+know if your system is
+
+45
+00:02:20.060 --> 00:02:23.375
+prompt or is vulnerable
+to injection?
+
+46
+00:02:23.375 --> 00:02:26.240
+You have, for example,
+broken authentication,
+
+47
+00:02:26.240 --> 00:02:28.770
+sensitive data exposure, you have
+
+48
+00:02:28.770 --> 00:02:32.295
+a lot of things to prove.
+
+49
+00:02:32.295 --> 00:02:35.655
+Again, if you go to
+the main website,
+
+50
+00:02:35.655 --> 00:02:38.250
+you will see a lot of
+the OWASP or something
+
+51
+00:02:38.250 --> 00:02:41.180
+else known as the checklist.
+
+52
+00:02:41.180 --> 00:02:45.480
+It's a document where you
+will get a lot of document,
+
+53
+00:02:45.480 --> 00:02:48.700
+a lot of controls that you
+will need to implement,
+
+54
+00:02:48.700 --> 00:02:50.885
+you will need to have on
+your web applications
+
+55
+00:02:50.885 --> 00:02:52.490
+in order to ensure that
+
+56
+00:02:52.490 --> 00:02:57.480
+your web app is fully secure.

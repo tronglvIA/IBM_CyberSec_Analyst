@@ -1,0 +1,195 @@
+WEBVTT
+
+1
+00:00:04.280 --> 00:00:08.400
+In this video, you
+will learn to describe
+
+2
+00:00:08.400 --> 00:00:11.910
+the five common forms of
+cryptographic attack,
+
+3
+00:00:11.910 --> 00:00:14.925
+brute force, rainbow tables,
+
+4
+00:00:14.925 --> 00:00:20.190
+social engineering, known
+plaintext, known ciphertext.
+
+5
+00:00:20.190 --> 00:00:22.980
+Now, we'll discuss
+some cryptographic attacks.
+
+6
+00:00:22.980 --> 00:00:25.250
+Some basic cryptographic
+attacks that we
+
+7
+00:00:25.250 --> 00:00:27.860
+have seen in the past
+are brute force,
+
+8
+00:00:27.860 --> 00:00:30.990
+the rainbow tables, of
+course social engineering,
+
+9
+00:00:30.990 --> 00:00:34.890
+known plain text, and
+known ciphertext.
+
+10
+00:00:34.890 --> 00:00:40.530
+So brute force is an attack
+based on trial and error,
+
+11
+00:00:40.530 --> 00:00:45.350
+and effectively would work
+through submission of
+
+12
+00:00:45.350 --> 00:00:48.200
+many passwords or
+fast traces to hope
+
+13
+00:00:48.200 --> 00:00:51.440
+that eventually it
+will guess correctly.
+
+14
+00:00:51.440 --> 00:00:53.630
+Rainbow tables are similar,
+
+15
+00:00:53.630 --> 00:00:56.090
+but they use a limited amount
+
+16
+00:00:56.090 --> 00:00:58.900
+of information or
+entity, or files,
+
+17
+00:00:58.900 --> 00:01:00.800
+and they actually contain
+
+18
+00:01:00.800 --> 00:01:02.840
+three hash passwords that we
+
+19
+00:01:02.840 --> 00:01:06.005
+can check against hash customers,
+
+20
+00:01:06.005 --> 00:01:08.645
+that makes the attacks
+a lot faster.
+
+21
+00:01:08.645 --> 00:01:11.710
+Social engineering consists using
+
+22
+00:01:11.710 --> 00:01:14.040
+non-technical methods
+to get those,
+
+23
+00:01:14.040 --> 00:01:18.035
+maybe get the password from
+the end users themselves.
+
+24
+00:01:18.035 --> 00:01:21.125
+The known plaintext
+attack is based
+
+25
+00:01:21.125 --> 00:01:25.845
+on having only plain text,
+
+26
+00:01:25.845 --> 00:01:29.130
+and doing analysis based on
+
+27
+00:01:29.130 --> 00:01:31.470
+that plaint text to try to
+
+28
+00:01:31.470 --> 00:01:34.140
+understand how the cipher works,
+
+29
+00:01:34.140 --> 00:01:38.595
+and how the cipher
+encrypts the information.
+
+30
+00:01:38.595 --> 00:01:42.950
+This is an attempt to actually
+understand and try to get
+
+31
+00:01:42.950 --> 00:01:44.900
+the actual key that is
+
+32
+00:01:44.900 --> 00:01:47.630
+used in the cipher to
+encrypt the information.
+
+33
+00:01:47.630 --> 00:01:49.130
+Once you have
+the key, you are able
+
+34
+00:01:49.130 --> 00:01:52.240
+to decrypt or encrypt
+any information.
+
+35
+00:01:52.240 --> 00:01:53.990
+The known ciphertext is
+
+36
+00:01:53.990 --> 00:01:56.885
+the process of having
+only ciphertext.
+
+37
+00:01:56.885 --> 00:01:58.790
+It's similar to the
+plaintext attack,
+
+38
+00:01:58.790 --> 00:02:01.085
+but with the difference that
+we don't own plaintext,
+
+39
+00:02:01.085 --> 00:02:02.780
+we just own ciphertext,
+
+40
+00:02:02.780 --> 00:02:04.985
+and based on that ciphertext,
+
+41
+00:02:04.985 --> 00:02:10.550
+we try to defer the key used
+in the cipher to again,
+
+42
+00:02:10.550 --> 00:02:13.110
+encrypt and decrypt information.
