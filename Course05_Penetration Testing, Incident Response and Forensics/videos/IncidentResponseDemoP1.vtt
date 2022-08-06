@@ -1,0 +1,722 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.505
+Welcome to Incident Response Demo Part 2,
+brought to you by IBM.
+
+2
+00:00:05.505 --> 00:00:08.068
+Offenses are created when
+a rule is triggered and
+
+3
+00:00:08.068 --> 00:00:10.960
+the action is set to create an offense.
+
+4
+00:00:10.960 --> 00:00:16.540
+As you can see we, have three offenses
+listed in the QRadar interface now.
+
+5
+00:00:16.540 --> 00:00:19.870
+This is the curator offense interface.
+
+6
+00:00:19.870 --> 00:00:22.460
+Inside the curator offense
+interface it lists out any
+
+7
+00:00:22.460 --> 00:00:25.912
+offenses that the QRadar
+rules engine has alerted on.
+
+8
+00:00:25.912 --> 00:00:27.510
+We have a few different ones here.
+
+9
+00:00:27.510 --> 00:00:32.680
+The quickest way to determine
+priority is by the magnitude,
+
+10
+00:00:32.680 --> 00:00:37.150
+and we can look at that by just
+placing our mouse over the bar graph.
+
+11
+00:00:37.150 --> 00:00:41.445
+As you can see there, the the first one's
+
+12
+00:00:41.445 --> 00:00:46.497
+a magnitude five,
+second's a magnitude four.
+
+13
+00:00:46.497 --> 00:00:49.157
+And these are all going to be the same,
+and
+
+14
+00:00:49.157 --> 00:00:51.830
+then this last one's a magnitude three.
+
+15
+00:00:51.830 --> 00:00:54.850
+So let's go ahead and
+check out the magnitude five.
+
+16
+00:00:54.850 --> 00:00:58.760
+After we click into the offense,
+we're given a summary page.
+
+17
+00:00:58.760 --> 00:01:02.930
+On the summary page it gives us
+all kinds of different details,
+
+18
+00:01:02.930 --> 00:01:05.030
+including the top five Source IPs,
+
+19
+00:01:05.030 --> 00:01:10.740
+the Destination IPs, which log
+sources were involved in the event,
+
+20
+00:01:10.740 --> 00:01:16.420
+as well as the categories of the events
+that were used to create the offense.
+
+21
+00:01:16.420 --> 00:01:21.740
+One of the main things to look at on
+this page is the top five innertations.
+
+22
+00:01:21.740 --> 00:01:25.960
+The very first one there
+is malicious URL detecting.
+
+23
+00:01:25.960 --> 00:01:30.900
+For this instance of QRadar,
+we actually have a rule that is built
+
+24
+00:01:30.900 --> 00:01:36.058
+to compare DNS queries
+against a reference set, and
+
+25
+00:01:36.058 --> 00:01:41.150
+that reference set has
+multiple malicious URLs in it.
+
+26
+00:01:41.150 --> 00:01:45.472
+If we wanted to drive down further in
+this event, we can click on the events.
+
+27
+00:01:52.726 --> 00:01:54.660
+And we can see the different
+events that were triggered.
+
+28
+00:01:56.927 --> 00:02:01.391
+So it was a DNS in progress
+to the DNS server.
+
+29
+00:02:07.051 --> 00:02:10.899
+And once QRadar has seen that and
+compared it to the reference set,
+
+30
+00:02:10.899 --> 00:02:14.007
+it created its event, and
+also created the offense.
+
+31
+00:02:18.407 --> 00:02:23.834
+All right, so now that we've seen
+the events that caused the offense,
+
+32
+00:02:23.834 --> 00:02:29.623
+let's go ahead and search this DNS name
+out on X-Force Exchange and see if it
+
+33
+00:02:29.623 --> 00:02:35.343
+is rated as malicious, which it should
+be since it is in our reference set.
+
+34
+00:02:35.343 --> 00:02:37.877
+I mean,
+unless some things have happened and
+
+35
+00:02:37.877 --> 00:02:41.821
+somebody else is now hosting that site,
+or somebody else now owns it.
+
+36
+00:02:41.821 --> 00:02:45.861
+Right away out here on X-Force Exchange,
+it's listed as a Risk 10.
+
+37
+00:02:47.010 --> 00:02:49.430
+This one does have a collection.
+
+38
+00:02:49.430 --> 00:02:53.410
+I've already opened it up here, so
+we're just going click over to it.
+
+39
+00:02:53.410 --> 00:02:57.980
+And for
+this URL it's used as part of a malware
+
+40
+00:02:57.980 --> 00:03:02.440
+exfiltrating credentials via DNS attack.
+
+41
+00:03:05.390 --> 00:03:10.533
+And one of the command and control
+
+42
+00:03:10.533 --> 00:03:16.058
+servers for this is Weber.
+
+43
+00:03:16.058 --> 00:03:23.170
+The DNS does appear to be malicious,
+so mockery QRadar and C.
+
+44
+00:03:23.170 --> 00:03:27.705
+So now that we've confirmed
+that it is malicious DNS,
+
+45
+00:03:27.705 --> 00:03:32.139
+we're going to jump in the loose
+
+46
+00:03:32.139 --> 00:03:37.430
+events again and confirm that
+the query actually didn't happen.
+
+47
+00:03:37.430 --> 00:03:44.770
+Right away I see that the destination IP
+is one that's not in our private network.
+
+48
+00:03:46.570 --> 00:03:50.760
+So that tells me that that
+DNS address was resolved.
+
+49
+00:03:54.340 --> 00:03:59.880
+And it results back to
+the 192 203 230.10 address.
+
+50
+00:03:59.880 --> 00:04:03.960
+At this point, I would kick off
+the incident response process
+
+51
+00:04:03.960 --> 00:04:08.835
+beginning with step two since I've already
+prepared my asset list as well as my
+
+52
+00:04:08.835 --> 00:04:13.520
+shareholders to contact and
+the events to trigger on.
+
+53
+00:04:16.550 --> 00:04:17.360
+Already, so I went ahead and
+
+54
+00:04:17.360 --> 00:04:21.190
+pulled on my incident response form here,
+this is just a template.
+
+55
+00:04:21.190 --> 00:04:22.940
+And to be honest, they all look different.
+
+56
+00:04:24.320 --> 00:04:26.040
+Some of them actually are in notepad.
+
+57
+00:04:26.040 --> 00:04:29.323
+The first thing here is
+the type of incident.
+
+58
+00:04:29.323 --> 00:04:36.923
+For the type of incident you want to
+put DNS query to known botnet,
+
+59
+00:04:36.923 --> 00:04:41.287
+all the detection source of QRadar,
+
+60
+00:04:41.287 --> 00:04:44.832
+the environment was the LAN.
+
+61
+00:04:44.832 --> 00:04:50.220
+His name is Vlad PC2 to the IP address.
+
+62
+00:04:55.320 --> 00:04:58.530
+This case it says multiple with
+the reason it says multiple is because
+
+63
+00:04:58.530 --> 00:05:05.620
+the workstation queried the DNS server and
+then it queried the secondary DNS server.
+
+64
+00:05:05.620 --> 00:05:10.316
+Then the those DNS servers queried
+the outside world to resolve that DNS.
+
+65
+00:05:15.981 --> 00:05:19.546
+So we want to pick the workstation
+IP as it's the one that's affected.
+
+66
+00:05:24.412 --> 00:05:28.204
+And then once you know
+if it's a web server, so
+
+67
+00:05:28.204 --> 00:05:32.679
+now with the system is a workstation and
+the public IP,
+
+68
+00:05:32.679 --> 00:05:37.460
+fortunately our lab doesn't
+currently have a public IP.
+
+69
+00:05:38.660 --> 00:05:42.940
+So for the public IP, I'll just make
+up on let's use Google's DNS server.
+
+70
+00:05:47.515 --> 00:05:52.595
+The next step is to start writing
+down the time we find information and
+
+71
+00:05:52.595 --> 00:05:56.445
+we complete a part of
+the incident response process.
+
+72
+00:05:59.715 --> 00:06:06.360
+So next thing we do is begin recording
+what time we found information.
+
+73
+00:06:06.360 --> 00:06:08.292
+So the first thing that we-
+
+74
+00:06:14.940 --> 00:06:21.810
+So the next thing that we do is begin
+recording what time we found information?
+
+75
+00:06:22.970 --> 00:06:25.570
+The first thing that we
+determined was that it
+
+76
+00:06:28.300 --> 00:06:33.205
+was a malicious DNS query
+found that it was this DNS.
+
+77
+00:06:37.482 --> 00:06:42.140
+We want to copy that in there and
+then continue on so
+
+78
+00:06:42.140 --> 00:06:46.970
+we found out the DNS query
+came from a workstation, so
+
+79
+00:06:46.970 --> 00:06:50.040
+we can put workstation and
+then the IP of the workstation.
+
+80
+00:06:52.248 --> 00:06:55.105
+We can put the host name in
+there if we know it as well.
+
+81
+00:06:55.105 --> 00:07:04.814
+Identify the asset that
+is being malicious.
+
+82
+00:07:04.814 --> 00:07:09.460
+We identified that it is a malicious URL
+identified that it didn't actually go out
+
+83
+00:07:09.460 --> 00:07:13.650
+and make that request and
+the request was successful.
+
+84
+00:07:13.650 --> 00:07:14.340
+It was a result.
+
+85
+00:07:14.340 --> 00:07:22.220
+The next step would be to go ahead and
+disconnect it from the network.
+
+86
+00:07:22.220 --> 00:07:26.270
+So to do that,
+we would want to submit a ticket and
+
+87
+00:07:26.270 --> 00:07:30.870
+have them disconnect the workstations,
+switch port or
+
+88
+00:07:30.870 --> 00:07:36.510
+if it's something that's physical we can
+walk over and unplug it and then circle
+
+89
+00:07:36.510 --> 00:07:41.610
+back with the network team to
+have them disable that port.
+
+90
+00:07:41.610 --> 00:07:45.580
+So once we submit that ticket
+over to them they disable it
+
+91
+00:07:46.740 --> 00:07:51.990
+then we can go ahead and
+get started with the antivirus scan and
+
+92
+00:07:53.240 --> 00:07:57.170
+closing out the incident if
+it doesn't mean reimaged.
+
+93
+00:07:58.480 --> 00:08:04.870
+However, in this case since it did reach
+out to a botnet even if the AV skin
+
+94
+00:08:04.870 --> 00:08:10.840
+comes back as clean, I still think it's
+a good idea to go ahead and reimage it.
+
+95
+00:08:10.840 --> 00:08:15.879
+But one of the reasons that we'd
+want to conduct the AV scan
+
+96
+00:08:15.879 --> 00:08:20.431
+in what is todetermine if something
+else is already on there.
+
+97
+00:08:20.431 --> 00:08:23.230
+Maybe OES isn't actually detecting
+
+98
+00:08:24.290 --> 00:08:29.605
+the virus and
+it just needs a full scan to be detected.
+
+99
+00:08:29.605 --> 00:08:34.059
+Once the switchboards
+
+100
+00:08:34.059 --> 00:08:38.590
+disabled, and kick off our AV scan.
+
+101
+00:08:38.590 --> 00:08:45.120
+So once we have our ENS skin kicked off,
+we want to go back and we want to
+
+102
+00:08:45.120 --> 00:08:51.310
+tidy up this document just going to
+pretend like that AV skin come back.
+
+103
+00:08:51.310 --> 00:08:53.790
+It was clean.
+
+104
+00:08:53.790 --> 00:08:55.230
+After that, I would go ahead and
+make the call
+
+105
+00:08:57.455 --> 00:09:02.185
+through interested advice since it
+is unknown on a neutral network.
+
+106
+00:09:02.185 --> 00:09:07.375
+So we don't want any chances of that
+being part of our local network.
+
+107
+00:09:07.375 --> 00:09:11.765
+We don't want it to infect other host or
+become part of that bond itself.
+
+108
+00:09:11.765 --> 00:09:17.320
+And since it is just the workstation,
+it's not anything super critical.
+
+109
+00:09:18.610 --> 00:09:22.330
+It can be reset,
+reimaged pretty quickly and no harm done.
+
+110
+00:09:25.570 --> 00:09:29.510
+And after that,
+I would send this information up and
+
+111
+00:09:31.090 --> 00:09:36.310
+allow them to process it and
+archive it so we have it,
+
+112
+00:09:36.310 --> 00:09:41.720
+we know what will it happen on this day.
+
+113
+00:09:41.720 --> 00:09:47.730
+Once we've completed our investigation we
+want to go to close the incident we can
+
+114
+00:09:47.730 --> 00:09:52.800
+go ahead and select a response
+
+115
+00:09:54.450 --> 00:09:58.200
+and we can paste our incident
+response form in there.
+
+116
+00:10:01.410 --> 00:10:05.220
+And close the ticket,
+close that offense out.
+
+117
+00:10:05.220 --> 00:10:09.610
+Once it's closed, it will no longer
+show up in our active offenses and
+
+118
+00:10:09.610 --> 00:10:12.070
+then we can move on to the next offense.
+
+119
+00:10:16.690 --> 00:10:19.820
+So since these offer your the same
+magnitude, we definitely want to
+
+120
+00:10:19.820 --> 00:10:24.670
+check out the the older one in
+case it needs a faster response.
+
+121
+00:10:24.670 --> 00:10:29.820
+When I click on the offense
+on the summary tab again,
+
+122
+00:10:29.820 --> 00:10:37.900
+we can see the offense source is this IP
+address which is a workstation as well.
+
+123
+00:10:37.900 --> 00:10:43.490
+It's actually the same workstation
+as the last offense and
+
+124
+00:10:43.490 --> 00:10:48.230
+we can also see that the long sources
+
+125
+00:10:48.230 --> 00:10:52.460
+that were part of the offense was
+QRadar as well as the firewall.
+
+126
+00:10:54.540 --> 00:10:58.110
+And we can see that the events that
+
+127
+00:10:58.110 --> 00:11:03.010
+were used to create this offense where
+session open and session closed events.
+
+128
+00:11:08.130 --> 00:11:14.760
+And in the annotations it says
+that it's a possible DDOS attack.
+
+129
+00:11:17.500 --> 00:11:21.910
+So we never want to check this one out or
+go into events.
+
+130
+00:11:28.870 --> 00:11:32.190
+And since this is a local to local attack,
+
+131
+00:11:32.190 --> 00:11:36.530
+it's a little less relevant.
+
+132
+00:11:36.530 --> 00:11:43.320
+Typically when you see local
+to a local DDOS attacks
+
+133
+00:11:43.320 --> 00:11:47.830
+it's just the user that's
+doing his daily job.
+
+134
+00:11:48.880 --> 00:11:53.160
+For instance this user
+is actually working with
+
+135
+00:11:55.110 --> 00:11:59.790
+the server to develop
+an application using an API.
+
+136
+00:11:59.790 --> 00:12:04.260
+So it's expected to see multiple 443
+
+137
+00:12:04.260 --> 00:12:07.780
+session open session closes for
+that system from that workstation.
+
+138
+00:12:09.290 --> 00:12:12.390
+So therefore this incident
+would be a false positive.
+
+139
+00:12:17.670 --> 00:12:21.985
+A false positive is triggered,
+even though the events are typical,
+
+140
+00:12:21.985 --> 00:12:28.590
+they're normal traffic it might just be
+something that's beginning to happen.
+
+141
+00:12:28.590 --> 00:12:33.810
+Or maybe it's a new server that stood up
+and the roles just aren't in here yet.
+
+142
+00:12:33.810 --> 00:12:37.820
+The rules have been modified and
+that case we would want to go ahead and
+
+143
+00:12:37.820 --> 00:12:39.600
+just tune QRadar.
+
+144
+00:12:39.600 --> 00:12:41.610
+That means that we can go ahead and
+make it.
+
+145
+00:12:41.610 --> 00:12:44.907
+You can go ahead and close the offense and
+
+146
+00:12:44.907 --> 00:12:49.310
+we're going to close it as a non-issue and
+
+147
+00:12:49.310 --> 00:12:53.354
+not a false positive just because we
+want that rule to stay in QRadar.
+
+148
+00:13:05.740 --> 00:13:09.070
+Once we modify the rule we
+want to make a comment to
+
+149
+00:13:09.070 --> 00:13:10.870
+say that the threshold
+was increased if that's
+
+150
+00:13:12.260 --> 00:13:17.560
+how you modify that rule to lessen
+the amount of false positive cheat.
+
+151
+00:13:17.560 --> 00:13:19.350
+I'm going to click OK
+close that offense out.
