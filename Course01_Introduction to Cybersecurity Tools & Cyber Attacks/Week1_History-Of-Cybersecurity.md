@@ -81,7 +81,7 @@ To deal with threats we need The SOC (Security Operation Center) that's the cont
 
 # Cybersecurity Programs
 
-<img title="" src="file:///E:/Hacking_Courses/IBM_CyberSecurity/images/2022-08-03-02-37-01-image.png" alt="" data-align="center">
+<img title="" src="../images/2022-08-03-02-37-01-image.png" alt="" data-align="center">
 
 [The Insane Amounts of Data We're Using Every Minute (Infographic)](https://www.entrepreneur.com/article/314672)
 
