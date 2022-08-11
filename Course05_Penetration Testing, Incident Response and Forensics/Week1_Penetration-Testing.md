@@ -87,7 +87,7 @@ Visit the [Common Vulnerabilities and Exposures](https://cve.mitre.org/) (CVE’
 
 Attack Phase
 
-![Attack Phase Steps with Loopback to Discovery Phase | Download Scientific  Diagram](https://www.researchgate.net/profile/Karen-Scarfone/publication/329973439/figure/fig1/AS:708956708163584@1546039859470/2-Attack-Phase-Steps-with-Loopback-to-Discovery-Phase.png)
+![Attack Phase Steps with Loopback to Discovery Phase | Download Scientific  Diagram](../images/Attack-Phase-Steps-with-Loopback-to-Discovery-Phase.png)
 
 <img src="../images/2022-08-03-22-52-06-image.png" title="" alt="" data-align="center">
 
