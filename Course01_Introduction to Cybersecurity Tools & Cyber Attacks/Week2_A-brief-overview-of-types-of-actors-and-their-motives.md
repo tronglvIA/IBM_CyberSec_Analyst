@@ -147,7 +147,7 @@ Malware, or malicious software, is any program or file that is intentionally har
 
 ## The Cyber Kill Chain
 
-<img src="https://dd80b675424c132b90b3-e48385e382d2e5d17821a5e1d8e4c86b.ssl.cf1.rackcdn.com/files/images_articles/Intrusion-Kill-Chain.jpg" title="" alt="Target Analysis: Could Have, Should Have - BankInfoSecurity" data-align="center">
+<img src="../images/Intrusion-Kill-Chain.jpg" title="" alt="Target Analysis: Could Have, Should Have - BankInfoSecurity" data-align="center">
 
 ## What is Social Engineering?
 
