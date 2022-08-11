@@ -181,8 +181,6 @@ From knowledges previous pic, we always want to start with collecting the volati
 | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="../images/2022-08-05-11-07-44-image.png" title="" alt="" data-align="center"> | <img src="../images/2022-08-05-08-00-31-image.png" title="" alt="" data-align="center"> |
 
-E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-08-00-31-image.png
-
 ### What log information may be useful?
 
 <img src="../images/2022-08-05-08-05-54-image.png" title="" alt="" data-align="center">
