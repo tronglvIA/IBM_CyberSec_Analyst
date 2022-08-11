@@ -62,7 +62,7 @@ The first step in the forensic process is to identify potential sources of data 
 
 # The Forensic Process
 
-<img src="https://www.researchgate.net/profile/Fabio-Marturana/publication/263619846/figure/fig2/AS:652182651166741@1532503869610/NISTs-4-phases-forensic-model.png" title="" alt="1: NIST's 4-phases forensic model | Download Scientific Diagram" data-align="center">
+<img src="../images/NISTs-4-phases-forensic-model.png" title="" alt="1: NIST's 4-phases forensic model | Download Scientific Diagram" data-align="center">
 
 <img src="../images/2022-08-05-07-24-24-image.png" title="" alt="" data-align="left"> <img src="../images/2022-08-05-07-24-41-image.png" title="" alt="" data-align="inline">
 
@@ -130,7 +130,7 @@ W​hile the vast majority of this module is focused on network and computer dat
 
 # Forensic Data
 
-![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-07-29-53-image.png)
+![](../images/2022-08-05-07-29-53-image.png)
 
 ## Data Files
 
@@ -150,7 +150,7 @@ Another type of information we can get from file `MAC data`
 
 How to we collect data? | two major camps in collecting files.
 
-| ![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-07-43-04-image.png) | <img src="../images/2022-08-05-07-43-13-image.png" title="" alt="" data-align="center"> |
+| ![](../images/2022-08-05-07-43-04-image.png) | <img src="../images/2022-08-05-07-43-13-image.png" title="" alt="" data-align="center"> |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 
 `Tools for techniques`
@@ -261,7 +261,7 @@ E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-08-00-31-image.png
 
 **`Types of Applications`**
 
-![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-08-36-39-image.png)
+![](../images/2022-08-05-08-36-39-image.png)
 
 - Email
   
@@ -277,11 +277,11 @@ E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-08-00-31-image.png
 
 ### What considerations are taken when collecting application data.
 
-![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-11-20-36-image.png)
+![](../images/2022-08-05-11-20-36-image.png)
 
 ## Network Data
 
-![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-05-11-24-45-image.png)
+![](../images/2022-08-05-11-24-45-image.png)
 
 ### TCP/IP Basic relates to Forensics
 
