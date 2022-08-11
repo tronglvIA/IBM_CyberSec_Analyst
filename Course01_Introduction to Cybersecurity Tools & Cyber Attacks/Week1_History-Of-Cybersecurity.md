@@ -49,7 +49,7 @@ To deal with threats we need The SOC (Security Operation Center) that's the cont
 
 ## Key Terms
 
-![](E:\Hacking_Courses\IBM_CyberSecurity\images\2022-08-03-02-09-59-image.png)
+![](../images/2022-08-03-02-09-59-image.png)
 
 - Vulnerability
   
@@ -69,7 +69,7 @@ To deal with threats we need The SOC (Security Operation Center) that's the cont
 
 ## Security Threats
 
-<img title="" src="file:///E:/Hacking_Courses/IBM_CyberSecurity/images/2022-08-03-02-16-04-image.png" alt="" data-align="center">
+<img title="" src="../images/2022-08-03-02-16-04-image.png" alt="" data-align="center">
 
 ## Vulnerability Assessments
 
